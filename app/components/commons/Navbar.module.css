@@ -11,7 +11,14 @@
 
 .navbar__actions {
     list-style: none;
+    align-items: center;
+    padding: 0px;
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 2rem;
+}
+
+.navbar__actions li div {
+    display: flex;
+    align-items: center;
 }

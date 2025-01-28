@@ -1,5 +1,9 @@
+// Style
 import style from "./Navbar.module.css";
+
+// Componentes
 import ToggleLanguage from "./ToggleLanguage";
+import ToggleTheme from "./ToggleTheme";
 
 export default function Navbar() {
     return (
@@ -8,7 +12,7 @@ export default function Navbar() {
 
             <ul className={style.navbar__actions}>
                 <li><ToggleLanguage /></li>
-                <li>Toggle</li>
+                <li><ToggleTheme /></li>
             </ul>
         </header>
     )

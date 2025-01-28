@@ -1,0 +1,10 @@
+.toggletheme {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+}
