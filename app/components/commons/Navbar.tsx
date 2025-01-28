@@ -5,12 +5,10 @@ export default function Navbar() {
         <header className={style.navbar}>
             <h1 className={style.navbar__title}>Mariana</h1>
 
-            <nav>
-                <ul>
-                    <li>Brasil</li>
-                    <li>Toggle</li>
-                </ul>
-            </nav>
+            <ul className={style.navbar__actions}>
+                <li>Brasil</li>
+                <li>Toggle</li>
+            </ul>
         </header>
     )
 }

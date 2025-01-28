@@ -1,0 +1,17 @@
+.navbar {
+    margin: 0rem 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar__title {
+    font-weight: 900;
+}
+
+.navbar__actions {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
