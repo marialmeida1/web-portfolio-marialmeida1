@@ -12,14 +12,14 @@
   --secondary-color: #17B89A;
 }
 
-@media screen and (prefers-color-scheme: dark) {
+/*@media screen and (prefers-color-scheme: dark) {
   :root {
     --font-color: #f4f4f4;
     --bg-color: #242424;
     --primary-color: #7A4BC6;
     --secondary-color: #17B89A;
   }
-}
+}*/
 
 body,
 html {
