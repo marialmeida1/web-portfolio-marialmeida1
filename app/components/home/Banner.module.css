@@ -5,7 +5,8 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1 !important;
+    z-index: 40 !important;
+    overflow: visible;
 }
 
 .banner__image {
@@ -25,6 +26,7 @@
     align-items: center;
     justify-content: space-evenly;
     text-align: start;
+    z-index: 45 !important;
 }
 
 .banner__overlay_text {
@@ -70,4 +72,45 @@
     position: absolute;
     bottom: 0;
     margin-bottom: 3rem;
+}
+
+@media (max-width: 960px) {
+    .banner__overlay {
+        flex-direction: column !important;
+        z-index: 10 !important;
+        height: 100%;
+    }
+
+    .banner__overlay_text {
+        margin-top: 5rem;
+        width: 20rem;
+    }
+
+    .banner__picture {
+        position: relative;
+        z-index: 47 !important;
+    }
+
+    .banner__circles {
+        margin-top: 1rem;
+        margin-bottom: 0rem;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        position: relative;
+    }
+
+    .banner__overlay_text {
+        align-items: end;
+    }
+
+    .banner__overlay_text p {
+        font-size: 1.5rem;
+        text-align: start;
+        width: 100%;
+    }
+    
+    .banner__overlay_text h1 {
+        font-size: 2rem;
+    }
 }
