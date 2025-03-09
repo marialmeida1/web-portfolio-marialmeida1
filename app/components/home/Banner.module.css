@@ -2,7 +2,7 @@
     width: 100%;
     height: 500px;
     overflow: hidden;
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     z-index: 40 !important;
@@ -75,6 +75,15 @@
 }
 
 @media (max-width: 960px) {
+
+    .banner {
+        height: 80vh;
+    }
+
+    .banner__image {
+        height: 500px;
+    }
+
     .banner__overlay {
         flex-direction: column !important;
         z-index: 10 !important;
@@ -112,5 +121,9 @@
     
     .banner__overlay_text h1 {
         font-size: 2rem;
+    }
+
+    .banner__line02 {
+        display: none;
     }
 }
