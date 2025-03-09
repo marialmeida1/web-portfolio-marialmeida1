@@ -17,7 +17,7 @@ export default function Navbar() {
 
     return (
         <header className={style.navbar}>
-            <h1 className={`${style.navbar__title} ${isHomePage ? style.white__text : ""}`}>Mariana</h1>
+            <h1 className={`${style.navbar__title} ${isHomePage ? style.white__text : ""}`}>&lt;Mariana/&gt;</h1>
 
             <ul className={style.navbar__actions}>
                 <li><ToggleLanguage /></li>
