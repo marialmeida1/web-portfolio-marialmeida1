@@ -34,7 +34,7 @@ export default function About() {
                     Baixe meu currículo abaixo e descubra mais:
                 </p>
 
-                <a href="" className={style.about__btncv}>
+                <a href="/files/curriculo.pdf" download="curriculo.pdf" className={style.about__btncv}>
                     Download CV
                     <FontAwesomeIcon icon={faUpRightFromSquare} />
                 </a>
