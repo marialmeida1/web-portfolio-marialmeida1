@@ -1,0 +1,29 @@
+.togglebutton {
+    background-color: #cecece40;
+    padding: 0.5rem;
+    border-radius: 2.5rem;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.togglebutton p {
+    margin: 0rem;
+}
+
+.togglebutton__active {
+    padding: 0.25rem 0.5rem;
+    background-color: #252525;
+    color: #fff;
+    border-radius: 2.5rem;
+    cursor: pointer;
+}
+
+.togglebutton__inactive {
+    padding: 0.25rem 0.5rem;
+    color: #252525;
+    border-radius: 2.5rem;
+    cursor: pointer;
+}
