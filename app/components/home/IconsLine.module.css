@@ -1,0 +1,44 @@
+.iconsline {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    background-color: var(--primary-color);
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    margin: 5rem 0rem;
+}
+
+.iconsline__wrapper {
+    display: flex;
+    flex-direction: column; /* Stack tracks vertically */
+    width: 100%;
+    overflow: hidden;
+}
+
+.iconsline__track {
+    margin-left: 2rem;
+    display: flex;
+    gap: 2rem;
+    animation: infiniteScroll 10s linear infinite;
+    width: max-content; /* Ensures track expands */
+}
+
+.iconsline__icon {
+    color: #ffffff50;
+    font-size: 2rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.iconsline__icon:hover {
+    color: #ffffff;
+}
+
+@keyframes infiniteScroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
