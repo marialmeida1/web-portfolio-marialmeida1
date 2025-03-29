@@ -11,7 +11,7 @@
 
 .iconsline__wrapper {
     display: flex;
-    flex-direction: column; /* Stack tracks vertically */
+    flex-direction: column;
     width: 100%;
     overflow: hidden;
 }
@@ -21,7 +21,7 @@
     display: flex;
     gap: 2rem;
     animation: infiniteScroll 10s linear infinite;
-    width: max-content; /* Ensures track expands */
+    width: max-content;
 }
 
 .iconsline__icon {
