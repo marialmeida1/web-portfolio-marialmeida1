@@ -10,8 +10,8 @@
     content: "";
     position: absolute;
     top: 74%;
-    left: 10%;
-    width: 80%;
+    left: 5%;
+    width: 95%;
     height: 1px;
     background-color: var(--font-color);
     z-index: 0;
