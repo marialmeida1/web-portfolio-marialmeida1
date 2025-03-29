@@ -13,3 +13,32 @@
 .about p {
     line-height: 1.8rem;
 }
+
+.about__stacks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5.75rem;
+}
+
+.about__cta {
+    font-weight: bold;
+    padding-top: 5.75rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.about__btncv {
+    padding: 0.75rem 1.5rem;
+    border-radius: 2rem;
+    width: fit-content;
+    font-size: 1rem;
+    font-weight: 900;
+    color: #fff;
+    background-color: var(--primary-color);
+    text-decoration: none;
+}
+
+.about__btncv svg {
+    padding-left: 1rem;
+}
