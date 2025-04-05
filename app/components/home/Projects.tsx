@@ -1,5 +1,8 @@
 // Styles
 import style from "./Projects.module.css"
+
+// Componentes
+import CardProjects from "./projects/CardProjects";
 import ToggleButton from "./projects/ToggleButton";
 
 export default function Projects() {
@@ -8,6 +11,10 @@ export default function Projects() {
             <div className={style.projects__header}>
                 <h1>Projetos</h1>
                 <ToggleButton />
+            </div>
+
+            <div>
+                <CardProjects />
             </div>
         </section>
     );
