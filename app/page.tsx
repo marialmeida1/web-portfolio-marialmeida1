@@ -10,7 +10,7 @@ import Publications from "./components/home/Publications";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Navbar />
       <Banner />
       <About />
@@ -19,6 +19,6 @@ export default function Home() {
       <Publications />
       <Contact />
       <Networks/>
-    </div>
+    </>
   );
 }
