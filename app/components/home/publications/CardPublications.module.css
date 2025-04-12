@@ -5,6 +5,7 @@
     width: fit-content;
     width: 21rem;
     box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.055);
+    background-color: var(--bg-color-secondary);
 }
 
 .cardpublications__img {
