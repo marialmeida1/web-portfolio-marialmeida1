@@ -13,7 +13,9 @@ export default function Projects() {
                 <ToggleButton />
             </div>
 
-            <div>
+            <div className={style.projects__line}>
+                <CardProjects />
+                <CardProjects />
                 <CardProjects />
             </div>
         </section>
