@@ -6,7 +6,12 @@ import ButtonTimeline from "./ButtonTimeline";
 
 export default function Timeline() {
     return (
+
         <div className={style.timeline}>
+
+            <div className={style.timeline__line} />
+
+
             <div className={style.timeline__section}>
                 <p>Início dos estudos <br /> em <b>design</b></p>
                 <ButtonTimeline month="Jun" year="2020" color="secondary" />

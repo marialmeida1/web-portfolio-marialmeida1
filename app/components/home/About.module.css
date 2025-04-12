@@ -16,7 +16,7 @@
 
 .about__stacks {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 5.75rem;
 }
@@ -41,4 +41,10 @@
 
 .about__btncv svg {
     padding-left: 1rem;
+}
+
+@media (max-width: 960px) {
+    .about {
+        width: 90%;
+    }
 }
