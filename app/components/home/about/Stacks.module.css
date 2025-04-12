@@ -29,3 +29,20 @@
     margin: 0rem;
     line-height: 1.4rem !important;
 }
+
+@media (max-width: 960px) {
+    .stacks {
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .stacks__title {
+        text-align: center;
+        width: 100%;
+    }
+
+    .stacks__description {
+        text-align: center;
+    }
+}

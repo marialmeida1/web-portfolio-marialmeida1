@@ -8,6 +8,7 @@
     z-index: 40 !important;
     overflow: visible;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .banner__image {
@@ -94,7 +95,7 @@
     }
 
     .banner__overlay_text {
-        margin-top: 5rem;
+        margin-top: 8rem;
         width: 20rem;
     }
 

@@ -47,4 +47,8 @@
     .about {
         width: 90%;
     }
+
+    .about__stacks {
+        gap: 3rem;
+    }
 }

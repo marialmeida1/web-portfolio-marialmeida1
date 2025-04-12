@@ -6,6 +6,7 @@
     position: fixed;
     z-index: 50 !important;
     box-sizing: border-box; 
+    width: 100%;
 }
 
 .navbar__title {
@@ -32,10 +33,10 @@
 
 @media screen and (max-width: 700px) {
     .navbar {
-        padding: 0rem 0rem;
+        padding: 0rem 1rem;
     }
 
     .navbar__title {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 }
