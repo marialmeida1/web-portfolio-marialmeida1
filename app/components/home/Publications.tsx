@@ -3,10 +3,12 @@ import CardPublications from "./publications/CardPublications";
 
 export default function() {
     return(
-        <section>
+        <section className={`container ${style.publications}`}>
             <h1>Publicações</h1>
             
-            <div>
+            <div className={style.publications__line}>
+                <CardPublications />
+                <CardPublications />
                 <CardPublications />
             </div>
         </section>
