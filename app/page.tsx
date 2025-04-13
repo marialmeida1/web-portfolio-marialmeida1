@@ -8,7 +8,8 @@ import Networks from "./components/home/Networks";
 import Projects from "./components/home/Projects";
 import Publications from "./components/home/Publications";
 
-export default function Home() {
+export default async function Home() {
+
   return (
     <>
       <Navbar />

@@ -1,6 +1,9 @@
 "use client"
 
+// React
 import { useEffect, useState } from "react";
+import Link from "next/link";
+
 // Style
 import style from "./Navbar.module.css";
 
@@ -10,7 +13,6 @@ import ToggleTheme from "./ToggleTheme";
 
 // Rotas
 import { usePathname } from "next/navigation";
-import Link from "next/link";
 
 export default function Navbar() {
 
