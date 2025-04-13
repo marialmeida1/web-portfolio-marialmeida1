@@ -1,5 +1,5 @@
 // Components
-import Navbar from "../components/commons/Navbar";
+import Navbar from "../../components/commons/Navbar";
 
 // Icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
