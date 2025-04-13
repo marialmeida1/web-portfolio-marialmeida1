@@ -16,7 +16,7 @@ export default function ToggleLanguage() {
     }
 
     return (
-        <div onClick={toogle} className={showMe ? ${style.tooglelang} ${style.rotate} : style.tooglelang}>
+        <div onClick={toogle} className={`showMe ? ${style.tooglelang} ${style.rotate} : style.tooglelang`}>
             <Image src={showMe ? brazil : eua} alt="Brazil Flag" width={32} />
         </div >
     );
