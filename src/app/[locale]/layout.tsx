@@ -1,5 +1,5 @@
 import "./globals.css";
-import '@/lib/fontawesome';
+import '@/src/lib/fontawesome';
 import { Poppins } from 'next/font/google';
 
 const poppins = Poppins({
