@@ -14,25 +14,45 @@ export default function Networks() {
 
 
             <div className={style.networks__iconContainer}>
-                <div className={style.networks__icons}>
+                <a
+                    className={style.networks__icons}
+                    href="mailto:marianaalmeidafga@gmail.com?subject=Olá%20Mariana&body=Gostaria%20de%20falar%20com%20você%20sobre%20seu%20portfólio."
+                    target="_blank"
+                    rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faEnvelope} />
-                </div>
+                </a>
 
-                <div className={style.networks__icons}>
+                <a
+                    className={style.networks__icons}
+                    href="https://www.linkedin.com/in/marialmeidam/"
+                    target="_blank"
+                    rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faLinkedin} />
-                </div>
+                </a>
 
-                <div className={style.networks__icons}>
+                <a
+                    className={style.networks__icons}
+                    href="https://github.com/marialmeida1"
+                    target="_blank"
+                    rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faGithub} />
-                </div>
+                </a>
 
-                <div className={style.networks__icons}>
+                <a
+                    className={style.networks__icons}
+                    href="https://www.behance.net/marianaalmeida51"
+                    target="_blank"
+                    rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faBehance} />
-                </div>
+                </a>
 
-                <div className={style.networks__icons}>
+                <a
+                    className={style.networks__icons}
+                    href="https://medium.com/@marianaalmeidafga"
+                    target="_blank"
+                    rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faMedium} />
-                </div>
+                </a>
             </div>
 
             <div className={style.networks__footer}>Copyright © 2025 Mariana Almeida. Todos os direitos reservados.</div>

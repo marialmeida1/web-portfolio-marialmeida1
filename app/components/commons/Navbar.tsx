@@ -10,6 +10,7 @@ import ToggleTheme from "./ToggleTheme";
 
 // Rotas
 import { usePathname } from "next/navigation";
+import Link from "next/link";
 
 export default function Navbar() {
 
@@ -33,7 +34,7 @@ export default function Navbar() {
 
     return (
         <header className={`${style.navbar} ${isHomePage ? "" : style.bg__color} ${notAtTop ? style.bg__color : ''}`}>
-            <h1 className={`${style.navbar__title} ${isHomePage && !notAtTop ? style.white__text : ""}`}>&lt;Mariana/&gt;</h1>
+            <Link href="/" className={`${style.navbar__title} ${isHomePage && !notAtTop ? style.white__text : ""}`}>&lt;Mariana/&gt;</Link>
 
             <ul className={style.navbar__actions}>
                 <li><ToggleLanguage /></li>

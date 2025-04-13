@@ -70,7 +70,9 @@ export default function Projects() {
                             entre em contato comigo ou conecte-se pelas minhas redes sociais abaixo. <br />
                             <b>Vamos transformar ideias em realidade!</b></p>
                     </div>
-                    <a>Entrar em Contato <FontAwesomeIcon icon={faWhatsapp} /></a>
+                    <a href="https://wa.me/5537988023839?text=SUA%20MENSAGEM"
+                        target="_blank"
+                        rel="noopener noreferrer">Entrar em Contato <FontAwesomeIcon icon={faWhatsapp} /></a>
                 </div>
             </section>
 

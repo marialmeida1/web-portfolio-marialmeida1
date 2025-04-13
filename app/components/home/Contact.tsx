@@ -14,7 +14,9 @@ export default function Contact() {
                     entre em <br /> contato comigo ou conecte-se pelas minhas redes sociais abaixo. <br />
                     <b>Vamos transformar ideias em realidade!</b></p>
             </div>
-            <a className={style.contact__btn}>Entrar em Contato <FontAwesomeIcon icon={faWhatsapp} /></a>
+            <a href="https://wa.me/5537988023839?text=SUA%20MENSAGEM"
+                target="_blank"
+                rel="noopener noreferrer" className={style.contact__btn}>Entrar em Contato <FontAwesomeIcon icon={faWhatsapp} /></a>
         </section>
     );
 }
