@@ -1,6 +1,3 @@
-// Componentes
-import Image from 'next/image'
-
 // Style
 import style from './Banner.module.css'
 
