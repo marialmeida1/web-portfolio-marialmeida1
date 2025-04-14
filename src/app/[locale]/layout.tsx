@@ -1,11 +1,16 @@
+// Language
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { routing } from '@/src/i18n/routing';
 
+// Styles
 import "../globals.css";
 import '@/src/lib/fontawesome';
 import { Poppins } from 'next/font/google';
+
+// Components
 import Navbar from '@/src/components/commons/Navbar';
+import Footer from '@/src/components/commons/Footer';
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -29,6 +34,7 @@ export default async function LocaleLayout({
       <body className={poppins.className}>
         <Navbar />
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <Footer />
       </body>
     </html>
   );

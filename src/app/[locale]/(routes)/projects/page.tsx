@@ -71,9 +71,6 @@ export default function Projects() {
                         rel="noopener noreferrer">Entrar em Contato <FontAwesomeIcon icon={faWhatsapp} /></a>
                 </div>
             </section>
-
-            <section className={style.projects__footer}>Copyright © 2025 Mariana Almeida. Todos os direitos reservados.</section>
-
         </>
     );
 }

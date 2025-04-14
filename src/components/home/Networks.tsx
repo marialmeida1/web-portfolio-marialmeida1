@@ -54,8 +54,6 @@ export default function Networks() {
                     <FontAwesomeIcon icon={faMedium} />
                 </a>
             </div>
-
-            <div className={style.networks__footer}>Copyright © 2025 Mariana Almeida. Todos os direitos reservados.</div>
         </section>
     );
 }
