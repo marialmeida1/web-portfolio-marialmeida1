@@ -1,8 +1,7 @@
 // Translate
-import { useTranslations } from 'next-intl';
 import { generateAboutContent } from '@/src/utils/GenerateAboutContent'
 import { generateBannerContent } from '@/src/utils/GenerateBannerContent'
-
+import { generateContactContent } from '@/src/utils/GenerateContactContent'
 
 // Components
 import Banner from '@/src/components/home/Banner';
@@ -21,6 +20,9 @@ export default function HomePage() {
     // About
     const aboutContent = generateAboutContent();
 
+    // Contact
+    const contactContent = generateContactContent();
+
     return (
         <>
             <Banner content={bannerContent} />
@@ -28,7 +30,7 @@ export default function HomePage() {
             <IconsLine />
             <Projects />
             <Publications />
-            <Contact />
+            <Contact content={contactContent} />
             <Networks />
         </>
     );

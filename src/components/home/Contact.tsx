@@ -5,18 +5,24 @@ import style from './Contact.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
-export default function Contact() {
+// Types
+import { ContactContent } from '@/src/types/ContactContent'
+
+interface ContactProps {
+    content: ContactContent
+}
+
+export default function Contact({content}: ContactProps) {
     return (
         <section className={`container ${style.contact}`}>
             <div>
-                <h1>Contato</h1>
-                <p>Se minhas habilidades técnicas e sociais chamaram sua atenção e você está pronto para criar soluções inovadoras,
-                    entre em <br /> contato comigo ou conecte-se pelas minhas redes sociais abaixo. <br />
-                    <b>Vamos transformar ideias em realidade!</b></p>
+                <h1>{content.title}</h1>
+                <p>{content.description}
+                    <b>{content.cta}</b></p>
             </div>
-            <a href="https://wa.me/5537988023839?text=SUA%20MENSAGEM"
+            <a href={`https://wa.me/5537988023839?text=${content.number_message}`}
                 target="_blank"
-                rel="noopener noreferrer" className={style.contact__btn}>Entrar em Contato <FontAwesomeIcon icon={faWhatsapp} /></a>
+                rel="noopener noreferrer" className={style.contact__btn}>{content.btn_cta} <FontAwesomeIcon icon={faWhatsapp} /></a>
         </section>
     );
 }
