@@ -9,10 +9,17 @@ import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 // Componentes
 import Timeline from "./about/Timeline";
 
-export default function About() {
+// Types
+import { AboutContent } from '@/src/types/AboutContent'
+
+interface AboutProps {
+    content: AboutContent
+}
+
+export default function About({content}: AboutProps) {
     return (
         <section className={`container ${style.about}`}>
-            <h1>Sobre mim</h1>
+            <h1>{content.about.title}</h1>
             <p>Prazer, sou Mariana, mas pode me chamar de Mari! Sou desenvolvedora fullstack, apaixonada por transformar ideias em experiências incríveis
                 para os usuários. Com o tempo, tenho aprimorado meus conhecimentos, sempre focada em entregar um código de qualidade e proporcionar a melhor
                 experiência ao cliente. Amante da tecnologia, busco compartilhar conhecimento onde quer que eu vá, sempre com uma boa música nos fones
@@ -36,6 +43,7 @@ export default function About() {
 
                 <a href="/files/curriculo.pdf" download="curriculo.pdf" className={style.about__btncv}>
                     Download
+
                     <FontAwesomeIcon icon={faUpRightFromSquare} />
                 </a>
             </div>

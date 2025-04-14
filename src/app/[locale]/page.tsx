@@ -1,6 +1,8 @@
 // Translate
 import { useTranslations } from 'next-intl';
-import { BannerContent } from '@/src/types/BannerContent';
+import { generateAboutContent } from '@/src/utils/GenerateAboutContent'
+import { generateBannerContent } from '@/src/utils/GenerateBannerContent'
+
 
 // Components
 import Banner from '@/src/components/home/Banner';
@@ -12,17 +14,17 @@ import Networks from '@/src/components/home/Networks';
 import Projects from '@/src/components/home/Projects';
 
 export default function HomePage() {
-    const t = useTranslations();
 
-    const bannerContent = {
-        apresentation: t('home__page.banner.apresentation'),
-        job: t('home__page.banner.job')
-    };
+    // Banner
+    const bannerContent = generateBannerContent();
+
+    // About
+    const aboutContent = generateAboutContent();
 
     return (
         <>
             <Banner content={bannerContent} />
-            <About />
+            <About content={aboutContent} />
             <IconsLine />
             <Projects />
             <Publications />
