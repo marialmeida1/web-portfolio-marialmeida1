@@ -1,6 +1,3 @@
-// Components
-import Navbar from "../../components/commons/Navbar";
-
 // Icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLaravel, faFlutter, faPhp, faDartLang, faGit, faGithub, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
@@ -11,7 +8,6 @@ import style from './page.module.css'
 export default function Projects() {
     return (
         <>
-            <Navbar />
             <section className={style.projects__banner}></section>
 
             <section className={`container ${style.projects__title}`}>
