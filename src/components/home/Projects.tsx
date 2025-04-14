@@ -26,7 +26,7 @@ export default function Projects({content}: ProjectsProps) {
 
             <div className={style.projects__line}>
                 {projectsInfosContent.projects.map((item, index) => (
-                    <CardProjects key={index} content={item}/>
+                    <CardProjects key={index} id={index+1} content={item}/>
                 ))}
             </div>
         </section>

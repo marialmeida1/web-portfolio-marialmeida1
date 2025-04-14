@@ -1,17 +1,32 @@
 // Icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLaravel, faFlutter, faPhp, faDartLang, faGit, faGithub, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { iconsMap } from "@/src/lib/fontawesome-icons";
+import { faGithub, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 // Styles 
 import style from './page.module.css'
 
 // Language
 import { genereteProjectsPageContent } from '@/src/utils/GenereteProjectsPageContent';
+import { generateProjectsInfosContent } from '@/src/utils/GenerateProjectsInfosContent';
 
-export default function Projects() {
+interface ProjectPageProps {
+    params: {
+        id: number;
+    };
+}
+
+export default function Projects({ params }: ProjectPageProps) {
+
+    // Router
+    const { id } = params;
 
     // Page
     const projectsPageContent = genereteProjectsPageContent();
+
+    // Projects
+    const projectsInfosContent = generateProjectsInfosContent();
+    const project = projectsInfosContent.projects[id - 1];
 
     return (
         <>
@@ -19,38 +34,32 @@ export default function Projects() {
 
             <section className={`container ${style.projects__title}`}>
                 <div>
-                    <h1>Girls in Ctrl</h1>
+                    <h1>{project.title}</h1>
                     <div className={style.projects__title_img}></div>
                 </div>
 
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique deserunt exercitationem perspiciatis laudantium eum veniam
-                    consequuntur tenetur culpa doloribus excepturi, nesciunt consequatur, necessitatibus natus consectetur accusamus, nihil ducimus
-                    fugiat esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deleniti reiciendis illo voluptate magni laborum
-                    perferendis similique, porro sed est neque voluptatibus eligendi aliquam pariatur. Sit blanditiis consectetur minima iste?</p>
+                <p>{project.description_page}</p>
             </section>
 
             <section className={`container ${style.projects__tools}`}>
                 <div className={style.projects__tools_infos}>
                     <h2>{projectsPageContent.title_tools}</h2>
                     <ul>
-                        <li><FontAwesomeIcon icon={faLaravel} /></li>
-                        <li><FontAwesomeIcon icon={faFlutter} /></li>
-                        <li><FontAwesomeIcon icon={faPhp} /></li>
-                        <li><FontAwesomeIcon icon={faDartLang} /></li>
-                        <li><FontAwesomeIcon icon={faGit} /></li>
+                        {project.icons.map((iconName, index) => {
+                            const icon = iconsMap[iconName as keyof typeof iconsMap];
+                            if (!icon) return null;
+                            return <li><FontAwesomeIcon icon={icon} key={index} /></li>;
+                        })}
                     </ul>
                 </div>
 
-                <a href="">{projectsPageContent.link_project}<FontAwesomeIcon icon={faGithub} /></a>
+                <a href={project.link_project} target='_blanck'>{projectsPageContent.link_project}<FontAwesomeIcon icon={faGithub} /></a>
             </section>
 
 
             <section className={`container ${style.projects__learned}`}>
                 <h2>{projectsPageContent.title_learned}</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique deserunt exercitationem perspiciatis laudantium eum veniam
-                    consequuntur tenetur culpa doloribus excepturi, nesciunt consequatur, necessitatibus natus consectetur accusamus, nihil ducimus
-                    fugiat esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deleniti reiciendis illo voluptate magni laborum
-                    perferendis similique, porro sed est neque voluptatibus eligendi aliquam pariatur. Sit blanditiis consectetur minima iste?</p>
+                <p>{project.description_learned}</p>
             </section>
 
             <section className={`container ${style.projects__images}`}>

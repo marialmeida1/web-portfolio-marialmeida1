@@ -107,6 +107,7 @@
     "footer": "Copyright © 2025 Mariana Almeida. Todos os direitos reservados.",
     "projects": [
         {
+            "id": "1",
             "banner_card": "/img",
             "color_page": "#222222",
             "title": "Girls in Ctrl",
@@ -119,7 +120,8 @@
                 "dart",
                 "git"
             ],
-            "description_learned": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique deserunt exercitationem perspiciatis laudantium eum veniam consequuntur tenetur culpa doloribus excepturi, nesciunt consequatur, necessitatibus natus consectetur accusamus, nihil ducimus fugiat esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deleniti reiciendis illo voluptate magni laborum perferendis similique, porro sed est neque voluptatibus eligendi aliquam pariatur. Sit blanditiis consectetur minima iste?"
+            "description_learned": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique deserunt exercitationem perspiciatis laudantium eum veniam consequuntur tenetur culpa doloribus excepturi, nesciunt consequatur, necessitatibus natus consectetur accusamus, nihil ducimus fugiat esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deleniti reiciendis illo voluptate magni laborum perferendis similique, porro sed est neque voluptatibus eligendi aliquam pariatur. Sit blanditiis consectetur minima iste?",
+            "link_project": "https://github.com/marialmeida1/app-girlsinctrl"
         }
     ]
 }

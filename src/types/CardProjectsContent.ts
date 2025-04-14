@@ -6,4 +6,5 @@ export interface CardProjectsContent {
     description_page: string;
     icons: string[];
     description_learned: string;
+    link_project: string;
 }
