@@ -12,37 +12,37 @@
             },
             "timeline": [
                 {
-                    "description": "Início dos estudos em design",
+                    "description": "Início dos estudos <br /> em design",
                     "month": "Jun",
                     "year": "2020",
                     "color": "secondary"
                 },
                 {
-                    "description": "Início no Técnico em Informática",
+                    "description": "Início no Técnico <br /> em Informática",
                     "month": "Mai",
                     "year": "2021",
                     "color": "primary"
                 },
                 {
-                    "description": "Apresentação de TCC",
+                    "description": "Apresentação de <br /> TCC",
                     "month": "Nov",
                     "year": "2023",
                     "color": "primary"
                 },
                 {
-                    "description": "Formatura no Técnico",
+                    "description": "Formatura no <br /> Técnico",
                     "month": "Mar",
                     "year": "2024",
                     "color": "secondary"
                 },
                 {
-                    "description": "Início na graduação em Ciência da Comp.",
+                    "description": "Início na graduação <br /> em Ciência da Comp.",
                     "month": "Mar",
                     "year": "2024",
                     "color": "secondary"
                 },
                 {
-                    "description": "Workshop Devfest",
+                    "description": "Workshop <br /> Devfest",
                     "month": "Out",
                     "year": "2024",
                     "color": "primary"

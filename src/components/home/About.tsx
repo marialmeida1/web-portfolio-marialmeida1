@@ -22,7 +22,7 @@ export default function About({ content }: AboutProps) {
             <h1>{content.about.title}</h1>
             <p>{content.about.description.text} <b>{content.about.description.cta}</b></p>
 
-            <Timeline />
+            <Timeline content={content.about.timeline} />
 
             <div className={style.about__stacks}>
                 {content.about.stacks.map((item, index) => (
