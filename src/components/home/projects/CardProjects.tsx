@@ -5,7 +5,14 @@ import style from './CardProjects.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLaravel, faFlutter, faPhp, faDartLang, faGit } from '@fortawesome/free-brands-svg-icons';
 
-export default function CardProjects() {
+// Language
+import { CardProjectsContent } from '@/src/types/CardProjectsContent'
+
+interface CardProjectsProps {
+    content: CardProjectsContent
+}
+
+export default function CardProjects({ content }: CardProjectsProps) {
     return (
         <article className={style.cardprojects}>
             <div className={style.cardprojects__icons}>
@@ -18,8 +25,8 @@ export default function CardProjects() {
 
             <div className={style.cardprojects__infos}>
                 <div>
-                    <h2>Girls in Ctrl - Aplicativo</h2>
-                    <p>Aplicativo full-stack voltado para mulheres no mercado de TI.</p>
+                    <h2>{content.title}</h2>
+                    <p>{content.description_card}</p>
                 </div>
 
                 <div className={style.cardprojects__btn}>Ver mais</div>

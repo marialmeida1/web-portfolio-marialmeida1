@@ -1,4 +1,5 @@
 // Styles
+import { generateProjectsInfosContent } from "@/src/utils/GenerateProjectsInfosContent";
 import style from "./Projects.module.css"
 
 // Componentes
@@ -13,6 +14,9 @@ interface ProjectsProps {
 }
 
 export default function Projects({content}: ProjectsProps) {
+
+    const projectsInfosContent = generateProjectsInfosContent();
+    
     return (
         <section className={`container ${style.projects}`}>
             <div className={style.projects__header}>
@@ -21,9 +25,9 @@ export default function Projects({content}: ProjectsProps) {
             </div>
 
             <div className={style.projects__line}>
-                <CardProjects />
-                <CardProjects />
-                <CardProjects />
+                {projectsInfosContent.projects.map((item, index) => (
+                    <CardProjects key={index} content={item}/>
+                ))}
             </div>
         </section>
     );
