@@ -53,7 +53,7 @@ export default function Projects({ params }: ProjectPageProps) {
                     </ul>
                 </div>
 
-                <a href={project.link_project} target='_blanck'>{projectsPageContent.link_project}<FontAwesomeIcon icon={faGithub} /></a>
+                <a href={project.github_link} target='_blanck'>{projectsPageContent.link_project}<FontAwesomeIcon icon={faGithub} /></a>
             </section>
 
 
