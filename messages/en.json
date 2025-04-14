@@ -1,6 +1,117 @@
 {
-    "HomePage": {
-        "title": "Hello world!",
-        "about": "Go to the about page"
-    }
-}
+    "home__page": {
+      "banner": {
+        "apresentation": "Nice to meet you, I'm Mariana,",
+        "job": "Full-Stack Developer and UX/UI Designer"
+      },
+      "about": {
+        "title": "About Me",
+        "description": {
+          "text": "Nice to meet you, I'm Mariana, but you can call me Mari! I'm a full-stack developer passionate about turning ideas into amazing user experiences. Over time, I've been refining my skills, always focused on delivering quality code and providing the best experience to the client. A technology enthusiast, I love sharing knowledge wherever I go, always with good music in my headphones to inspire my creations and fuel great achievements.",
+          "cta": "Come learn a bit more about my journey!"
+        },
+        "timeline": [
+          {
+            "description": "Started studying design",
+            "month": "Jun",
+            "year": "2020",
+            "color": "secondary"
+          },
+          {
+            "description": "Started Technical Program in IT",
+            "month": "May",
+            "year": "2021",
+            "color": "primary"
+          },
+          {
+            "description": "Final project presentation",
+            "month": "Nov",
+            "year": "2023",
+            "color": "primary"
+          },
+          {
+            "description": "Graduated from Technical Program",
+            "month": "Mar",
+            "year": "2024",
+            "color": "secondary"
+          },
+          {
+            "description": "Started Computer Science degree",
+            "month": "Mar",
+            "year": "2024",
+            "color": "secondary"
+          },
+          {
+            "description": "Devfest Workshop",
+            "month": "Oct",
+            "year": "2024",
+            "color": "primary"
+          }
+        ],
+        "stacks": [
+          {
+            "name": "code",
+            "title": "Developer",
+            "description": "I'm a full-stack developer, combining a solid back-end with an efficient front-end to deliver complete and functional applications."
+          },
+          {
+            "name": "palette",
+            "title": "UX Enthusiast",
+            "description": "My strength lies in front-end development, where I specialize in crafting impactful and intuitive applications for an engaging experience."
+          },
+          {
+            "name": "book",
+            "title": "Workshops",
+            "description": "Passionate about the transformative power of knowledge, I seek to share my experiences with others."
+          },
+          {
+            "name": "people",
+            "title": "Society",
+            "description": "I believe in the power of technology to change lives and I'm interested in initiatives that contribute to social well-being."
+          }
+        ],
+        "cta": {
+          "text": "Want to know more about my technical skills?",
+          "cta": "Download my résumé below and discover more:"
+        }
+      },
+      "projects": {
+        "title": "Projects",
+        "toggle": [
+          "Development",
+          "Design"
+        ],
+        "projects": [
+          {
+            "title": "Girls in Ctrl - App",
+            "description": "Full-stack app focused on women in the tech industry.",
+            "see": "See more"
+          }
+        ]
+      },
+      "publications": {
+        "title": "Publications",
+        "see": "See more"
+      },
+      "contact": {
+        "title": "Contact",
+        "description": "If my technical and social skills caught your attention and you're ready to create innovative solutions, get in touch with me or connect through my social networks below.",
+        "cta": "Let’s turn ideas into reality!",
+        "number_message": "Your message",
+        "btn_cta": "Get in Touch"
+      }
+    },
+    "project_page": {
+      "title": "Girls in Ctrl",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique deserunt exercitationem perspiciatis laudantium eum veniam consequuntur tenetur culpa doloribus excepturi, nesciunt consequatur, necessitatibus natus consectetur accusamus, nihil ducimus fugiat esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deleniti reiciendis illo voluptate magni laborum perferendis similique, porro sed est neque voluptatibus eligendi aliquam pariatur. Sit blanditiis consectetur minima iste?",
+      "title_tools": "Languages and Tools",
+      "link_project": "Source Code",
+      "title_learned": "What I Learned",
+      "description_learned": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique deserunt exercitationem perspiciatis laudantium eum veniam consequuntur tenetur culpa doloribus excepturi, nesciunt consequatur, necessitatibus natus consectetur accusamus, nihil ducimus fugiat esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deleniti reiciendis illo voluptate magni laborum perferendis similique, porro sed est neque voluptatibus eligendi aliquam pariatur. Sit blanditiis consectetur minima iste?",
+      "title_contact": "Contact",
+      "description_contact": "If my technical and social skills caught your attention and you're ready to create innovative solutions, get in touch with me or connect through my social networks below. Let’s turn ideas into reality!",
+      "cta_contact": "Get in Touch"
+    },
+    "footer": "Copyright © 2025 Mariana Almeida. All rights reserved."
+  }
+  

@@ -1,6 +1,116 @@
 {
-    "HomePage": {
-        "title": "Olá mundo!",
-        "about": "Ir para a página sobre"
-    }
+    "home__page": {
+        "banner": {
+            "apresentation": "Prazer, sou a Mariana,",
+            "job": "Desenvolvedora Full-Stack e Designer UX/UI"
+        },
+        "about": {
+            "title": "Sobre mim",
+            "description": {
+                "text": "Prazer, sou Mariana, mas pode me chamar de Mari! Sou desenvolvedora fullstack, apaixonada por transformar ideias em experiências incríveis para os usuários. Com o tempo, tenho aprimorado meus conhecimentos, sempre focada em entregar um código de qualidade e proporcionar a melhor experiência ao cliente. Amante da tecnologia, busco compartilhar conhecimento onde quer que eu vá, sempre com uma boa música nos fones de ouvido para inspirar minhas criações e motivar grandes realizações.",
+                "cta": "Venha conhecer um pouco mais da minha trajetória!"
+            },
+            "timeline": [
+                {
+                    "description": "Início dos estudos em design",
+                    "month": "Jun",
+                    "year": "2020",
+                    "color": "secondary"
+                },
+                {
+                    "description": "Início no Técnico em Informática",
+                    "month": "Mai",
+                    "year": "2021",
+                    "color": "primary"
+                },
+                {
+                    "description": "Apresentação de TCC",
+                    "month": "Nov",
+                    "year": "2023",
+                    "color": "primary"
+                },
+                {
+                    "description": "Formatura no Técnico",
+                    "month": "Mar",
+                    "year": "2024",
+                    "color": "secondary"
+                },
+                {
+                    "description": "Início na graduação em Ciência da Comp.",
+                    "month": "Mar",
+                    "year": "2024",
+                    "color": "secondary"
+                },
+                {
+                    "description": "Workshop Devfest",
+                    "month": "Out",
+                    "year": "2024",
+                    "color": "primary"
+                }
+            ],
+            "stacks": [
+                {
+                    "name": "code",
+                    "title": "Desenvolvedora",
+                    "description": "Sou desenvolvedora fullstack, integrando back-end robusto com front-end eficiente para entregar aplicações completas e funcionais."
+                },
+                {
+                    "name": "palette",
+                    "title": "Entusiasta UX",
+                    "description": "Meu diferencial está no front-end, onde me especializo para criar aplicações impactantes e intuitivas para uma experiência envolvente."
+                },
+                {
+                    "name": "book",
+                    "title": "Workshops",
+                    "description": "Apaixonada pelo poder transformador do conhecimento, busco compartilhar minhas vivências com os demais."
+                },
+                {
+                    "name": "people",
+                    "title": "Sociedade",
+                    "description": "Acredito no poder da tecnologia para transformar vidas e me interesso por iniciativas que contribuam para o bem-estar social."
+                }
+            ],
+            "cta": {
+                "text": "Quer saber mais sobre minhas habilidades técnicas?",
+                "cta": "Baixe meu currículo abaixo e descubra mais:"
+            }
+        },
+        "projects": {
+            "title": "Projetos",
+            "toggle": [
+                "Desenvolvimento",
+                "Design"
+            ],
+            "projects": [
+                {
+                    "title": "Girls in Ctrl - Aplicativo",
+                    "description": "Aplicativo full-stack voltado para mulheres no mercado de TI.",
+                    "see": "Ver mais"
+                }
+            ]
+        },
+        "publications": {
+            "title": "Publicações",
+            "see": "Ver mais"
+        },
+        "contact": {
+            "title": "Contato",
+            "description": "Se minhas habilidades técnicas e sociais chamaram sua atenção e você está pronto para criar soluções inovadoras, entre em contato comigo ou conecte-se pelas minhas redes sociais abaixo.",
+            "cta": "Vamos transformar ideias em realidade!",
+            "number_message": "Sua mensagem",
+            "btn_cta": "Entrar em Contato"
+        }
+    },
+    "project_page": {
+        "title": "Girls in Ctrl",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique deserunt exercitationem perspiciatis laudantium eum veniam consequuntur tenetur culpa doloribus excepturi, nesciunt consequatur, necessitatibus natus consectetur accusamus, nihil ducimus fugiat esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deleniti reiciendis illo voluptate magni laborum perferendis similique, porro sed est neque voluptatibus eligendi aliquam pariatur. Sit blanditiis consectetur minima iste?",
+        "title_tools": "Linguagens e Ferramentas",
+        "link_project": "Código Fonte",
+        "title_learned": "O que aprendi",
+        "description_learned": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique deserunt exercitationem perspiciatis laudantium eum veniam consequuntur tenetur culpa doloribus excepturi, nesciunt consequatur, necessitatibus natus consectetur accusamus, nihil ducimus fugiat esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deleniti reiciendis illo voluptate magni laborum perferendis similique, porro sed est neque voluptatibus eligendi aliquam pariatur. Sit blanditiis consectetur minima iste?",
+        "title_contact": "Contato",
+        "description_contact": "Se minhas habilidades técnicas e sociais chamaram sua atenção e você está pronto para criar soluções inovadoras, entre em contato comigo ou conecte-se pelas minhas redes sociais abaixo. Vamos transformar ideias em realidade!",
+        "cta_contact": "Entrar em Contato"
+    },
+    "footer": "Copyright © 2025 Mariana Almeida. Todos os direitos reservados."
 }
