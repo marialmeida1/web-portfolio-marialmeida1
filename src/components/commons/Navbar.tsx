@@ -32,7 +32,7 @@ export default function Navbar() {
     }, []);
 
     const pathname = usePathname();
-    const isHomePage = pathname === "/";
+    const isHomePage = pathname === "/pt" || pathname === "/en";
 
     return (
         <header className={`${style.navbar} ${isHomePage ? "" : style.bg__color} ${notAtTop ? style.bg__color : ''}`}>
