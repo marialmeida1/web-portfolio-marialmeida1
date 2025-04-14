@@ -20,7 +20,7 @@ export default function About({ content }: AboutProps) {
     return (
         <section className={`container ${style.about}`}>
             <h1>{content.about.title}</h1>
-            <p>{content.about.description.text} <b>{content.about.description.cta}</b></p>
+            <p>{content.about.description.text} <br /> <b>{content.about.description.cta}</b></p>
 
             <Timeline content={content.about.timeline} />
 
