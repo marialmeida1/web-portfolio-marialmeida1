@@ -80,13 +80,6 @@
             "toggle": [
                 "Desenvolvimento",
                 "Design"
-            ],
-            "projects": [
-                {
-                    "title": "Girls in Ctrl - Aplicativo",
-                    "description": "Aplicativo full-stack voltado para mulheres no mercado de TI.",
-                    "see": "Ver mais"
-                }
             ]
         },
         "publications": {

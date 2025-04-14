@@ -1,6 +1,7 @@
 // Translate
 import { generateAboutContent } from '@/src/utils/GenerateAboutContent'
 import { generateBannerContent } from '@/src/utils/GenerateBannerContent'
+import { generateProjectsContent } from '@/src/utils/GenerateProjectsContent'
 import { generateContactContent } from '@/src/utils/GenerateContactContent'
 
 // Components
@@ -21,6 +22,9 @@ export default function HomePage() {
     const aboutContent = generateAboutContent();
 
     // Contact
+    const projectsContent = generateProjectsContent();
+
+    // Contact
     const contactContent = generateContactContent();
 
     return (
@@ -28,7 +32,7 @@ export default function HomePage() {
             <Banner content={bannerContent} />
             <About content={aboutContent} />
             <IconsLine />
-            <Projects />
+            <Projects content={projectsContent}/>
             <Publications />
             <Contact content={contactContent} />
             <Networks />

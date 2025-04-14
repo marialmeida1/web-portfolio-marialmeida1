@@ -1,11 +1,5 @@
-export type ProjetcsContent = {
-    apresentation: string;
-    toogle: [];
-    timeline: {
-        description: string;
-        month: string;
-        year: string;
-        color: string;
-      }[];
+export type ProjectsContent = {
+    title: string;
+    toggle: string[]
   };
   

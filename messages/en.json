@@ -80,13 +80,6 @@
       "toggle": [
         "Development",
         "Design"
-      ],
-      "projects": [
-        {
-          "title": "Girls in Ctrl - App",
-          "description": "Full-stack app focused on women in the tech industry.",
-          "see": "See more"
-        }
       ]
     },
     "publications": {
