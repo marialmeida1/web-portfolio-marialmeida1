@@ -96,14 +96,30 @@
     },
     "project_page": {
         "title": "Girls in Ctrl",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique deserunt exercitationem perspiciatis laudantium eum veniam consequuntur tenetur culpa doloribus excepturi, nesciunt consequatur, necessitatibus natus consectetur accusamus, nihil ducimus fugiat esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deleniti reiciendis illo voluptate magni laborum perferendis similique, porro sed est neque voluptatibus eligendi aliquam pariatur. Sit blanditiis consectetur minima iste?",
         "title_tools": "Linguagens e Ferramentas",
         "link_project": "Código Fonte",
         "title_learned": "O que aprendi",
-        "description_learned": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique deserunt exercitationem perspiciatis laudantium eum veniam consequuntur tenetur culpa doloribus excepturi, nesciunt consequatur, necessitatibus natus consectetur accusamus, nihil ducimus fugiat esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deleniti reiciendis illo voluptate magni laborum perferendis similique, porro sed est neque voluptatibus eligendi aliquam pariatur. Sit blanditiis consectetur minima iste?",
         "title_contact": "Contato",
         "description_contact": "Se minhas habilidades técnicas e sociais chamaram sua atenção e você está pronto para criar soluções inovadoras, entre em contato comigo ou conecte-se pelas minhas redes sociais abaixo. Vamos transformar ideias em realidade!",
-        "cta_contact": "Entrar em Contato"
+        "cta_contact": "Entrar em Contato",
+        "number_message": "Sua mensagem"
     },
-    "footer": "Copyright © 2025 Mariana Almeida. Todos os direitos reservados."
+    "footer": "Copyright © 2025 Mariana Almeida. Todos os direitos reservados.",
+    "projects": [
+        {
+            "banner_card": "/img",
+            "color_page": "#222222",
+            "title": "Girls in Ctrl",
+            "description_card": "Aplicativo full-stack voltado para mulheres no mercado de TI.",
+            "description_page": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique deserunt exercitationem perspiciatis laudantium eum veniam consequuntur tenetur culpa doloribus excepturi, nesciunt consequatur, necessitatibus natus consectetur accusamus, nihil ducimus fugiat esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deleniti reiciendis illo voluptate magni laborum perferendis similique, porro sed est neque voluptatibus eligendi aliquam pariatur. Sit blanditiis consectetur minima iste?",
+            "icons": [
+                "laravel",
+                "flutter",
+                "php",
+                "dart",
+                "git"
+            ],
+            "description_learned": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique deserunt exercitationem perspiciatis laudantium eum veniam consequuntur tenetur culpa doloribus excepturi, nesciunt consequatur, necessitatibus natus consectetur accusamus, nihil ducimus fugiat esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deleniti reiciendis illo voluptate magni laborum perferendis similique, porro sed est neque voluptatibus eligendi aliquam pariatur. Sit blanditiis consectetur minima iste?"
+        }
+    ]
 }

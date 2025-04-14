@@ -5,7 +5,14 @@ import { faLaravel, faFlutter, faPhp, faDartLang, faGit, faGithub, faWhatsapp } 
 // Styles 
 import style from './page.module.css'
 
+// Language
+import { genereteProjectsPageContent } from '@/src/utils/GenereteProjectsPageContent';
+
 export default function Projects() {
+
+    // Page
+    const projectsPageContent = genereteProjectsPageContent();
+
     return (
         <>
             <section className={style.projects__banner}></section>
@@ -24,7 +31,7 @@ export default function Projects() {
 
             <section className={`container ${style.projects__tools}`}>
                 <div className={style.projects__tools_infos}>
-                    <h2>Linguagens e Ferramentas</h2>
+                    <h2>{projectsPageContent.title_tools}</h2>
                     <ul>
                         <li><FontAwesomeIcon icon={faLaravel} /></li>
                         <li><FontAwesomeIcon icon={faFlutter} /></li>
@@ -34,12 +41,12 @@ export default function Projects() {
                     </ul>
                 </div>
 
-                <a href="">Código Fonte<FontAwesomeIcon icon={faGithub} /></a>
+                <a href="">{projectsPageContent.link_project}<FontAwesomeIcon icon={faGithub} /></a>
             </section>
 
 
             <section className={`container ${style.projects__learned}`}>
-                <h2>O que aprendi</h2>
+                <h2>{projectsPageContent.title_learned}</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique deserunt exercitationem perspiciatis laudantium eum veniam
                     consequuntur tenetur culpa doloribus excepturi, nesciunt consequatur, necessitatibus natus consectetur accusamus, nihil ducimus
                     fugiat esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deleniti reiciendis illo voluptate magni laborum
@@ -61,14 +68,12 @@ export default function Projects() {
 
                 <div className={style.projects__contact_infos}>
                     <div>
-                        <h1>Contato</h1>
-                        <p>Se minhas habilidades técnicas e sociais chamaram sua atenção e você está pronto para criar soluções inovadoras,
-                            entre em contato comigo ou conecte-se pelas minhas redes sociais abaixo. <br />
-                            <b>Vamos transformar ideias em realidade!</b></p>
+                        <h1>{projectsPageContent.title_contact}</h1>
+                        <p>{projectsPageContent.description_contact}</p>
                     </div>
-                    <a href="https://wa.me/5537988023839?text=SUA%20MENSAGEM"
+                    <a href={`https://wa.me/5537988023839?text=${projectsPageContent.number_message}`}
                         target="_blank"
-                        rel="noopener noreferrer">Entrar em Contato <FontAwesomeIcon icon={faWhatsapp} /></a>
+                        rel="noopener noreferrer">{projectsPageContent.cta_contact}<FontAwesomeIcon icon={faWhatsapp} /></a>
                 </div>
             </section>
         </>
