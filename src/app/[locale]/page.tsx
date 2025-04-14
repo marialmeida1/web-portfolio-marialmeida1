@@ -2,6 +2,7 @@
 import { generateAboutContent } from '@/src/utils/GenerateAboutContent'
 import { generateBannerContent } from '@/src/utils/GenerateBannerContent'
 import { generateProjectsContent } from '@/src/utils/GenerateProjectsContent'
+import { generatePublicationsContent } from '@/src/utils/GeneratePublicationsContent'
 import { generateContactContent } from '@/src/utils/GenerateContactContent'
 
 // Components
@@ -21,8 +22,11 @@ export default function HomePage() {
     // About
     const aboutContent = generateAboutContent();
 
-    // Contact
+    // Projects
     const projectsContent = generateProjectsContent();
+
+    // Publications
+    const publicationsContent = generatePublicationsContent();
 
     // Contact
     const contactContent = generateContactContent();
@@ -33,7 +37,7 @@ export default function HomePage() {
             <About content={aboutContent} />
             <IconsLine />
             <Projects content={projectsContent}/>
-            <Publications />
+            <Publications content={publicationsContent} />
             <Contact content={contactContent} />
             <Networks />
         </>
