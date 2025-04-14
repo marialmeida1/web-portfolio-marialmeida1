@@ -35,7 +35,7 @@ export default function About() {
                 </p>
 
                 <a href="/files/curriculo.pdf" download="curriculo.pdf" className={style.about__btncv}>
-                    Download CV
+                    Download
                     <FontAwesomeIcon icon={faUpRightFromSquare} />
                 </a>
             </div>
