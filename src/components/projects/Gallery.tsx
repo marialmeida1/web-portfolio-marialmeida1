@@ -9,6 +9,9 @@ import Modal from "./Modal";
 // Language
 import { generateProjectsInfosContent } from '@/src/utils/GenerateProjectsInfosContent';
 
+// Style
+import style from "./Gallery.module.css"
+
 interface ProjectPageProps {
     id: number;
 }
@@ -27,15 +30,15 @@ export default function Gallery({ id }: ProjectPageProps) {
     const goNext = () => setCurrentIndex((i) => (i !== null && i < images.length - 1 ? i + 1 : i));
 
     return (
-        <div className="gallery">
+        <>
             {images.map((src, i) => (
                 <img
                     key={i}
                     src={src}
                     alt={`Imagem ${i}`}
-                    className="gallery-img"
-                    onClick={() => openModal(i)}
-                />
+                    className={style.thumbnail}
+                    onClick={() => openModal(i)}>
+                </img>
             ))}
 
             {currentIndex !== null && (
@@ -48,6 +51,6 @@ export default function Gallery({ id }: ProjectPageProps) {
                     hasPrev={currentIndex > 0}
                 />
             )}
-        </div>
+        </>
     );
 }

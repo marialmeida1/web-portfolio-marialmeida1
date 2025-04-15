@@ -79,21 +79,13 @@
     height: 1.5rem;
 }
 
-.projects__images ul {
+.projects__images  {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
     list-style: none;
-    padding: 0rem;
-}
-
-.projects__images ul li {
-    max-width: 12rem;
-    min-width: 12rem;
-    height: 14rem;
-    background-color: #ddd;
-    border-radius: 1rem;
+    margin-bottom: 5rem;
 }
 
 .projects__contact {
@@ -155,7 +147,7 @@
 }
 
 @media (max-width: 1175px) {
-    .projects__images ul {
+    .projects__images  {
         gap: 1rem;
         overflow-x: auto;
         scroll-snap-type: x mandatory;
@@ -163,7 +155,7 @@
         scrollbar-width: none;
     }
 
-    .projects__images ul::-webkit-scrollbar {
+    .projects__images ::-webkit-scrollbar {
         display: none;
     }
 
