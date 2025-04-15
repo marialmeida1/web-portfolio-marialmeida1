@@ -24,7 +24,9 @@ export default async function HomePage() {
         cache: 'no-store', // Garante que é SSR a cada request
     })
 
+    console.log('status:', res.status)
     const posts = await res.json()
+    console.log(posts)
 
     const t1 = await getTranslations('home__page.banner')
     const bannerContent = generateBannerContent(t1)

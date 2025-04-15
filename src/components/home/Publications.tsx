@@ -15,7 +15,7 @@ interface PostProps {
 }
 
 interface PublicationsProps {
-    posts: PostProps[] | null;
+    posts: PublicationsInfoContent[];
 }
 
 export default function ({ posts }: PublicationsProps) {
@@ -29,20 +29,10 @@ export default function ({ posts }: PublicationsProps) {
     return (
         <section className={`container ${style.publications}`}>
             <h1>{publicationsContent.title}</h1>
-
-            {posts.map((item, idx) => (
-                <div key={idx} className="mb-6 border p-4 rounded">
-                    {item.post.image && <img src={item.post.image} alt={item.post.title} className="mb-2 w-full max-w-md" />}
-                    <h2 className="text-xl font-semibold">{item.post.title}</h2>
-                    <p className="text-gray-700">{item.post.description}</p>
-                    <a href={item.post.link} target="_blank" rel="noopener noreferrer" className="text-blue-500">Read more</a>
-                </div>
-            ))}
-
             <div className={style.publications__line}>
-                <CardPublications />
-                <CardPublications />
-                <CardPublications />
+                {posts.map((item, id) => (
+                    <CardPublications key={id} post={item} />
+                ))}
             </div>
         </section>
     );

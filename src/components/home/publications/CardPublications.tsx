@@ -1,20 +1,28 @@
+// Styles
+import Image from "next/image";
 import style from "./CardPublications.module.css"
 
-export default function CardPublications() {
+// Types
+import { PublicationsInfoContent } from "@/src/types/PublicationsInfoContent";
+
+interface PostProps {
+    post: PublicationsInfoContent
+}
+
+
+export default function CardPublications({post}: PostProps) {
     return (
         <article className={style.cardpublications}>
-            <div className={style.cardpublications__img}>
-                Image
-            </div>
+            <img className={style.cardpublications__img} alt={post.title} src={post.image}>
+            </img>
 
             <div className={style.cardpublications__infos}>
                 <div className={style.cardpublications__infos_text}>
-                    <h2>Girls in Ctrl - Aplicativo</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut odio,
-                        voluptate ex vitae corrupti quia laborum voluptatem rem possimus tenetur.</p>
+                    <h2>{post.title}</h2>
+                    <p>{post.description}</p>
                 </div>
 
-                <a>Saiba mais</a>
+                <a href={post.link} target="_blanck"  >Saiba mais</a>
             </div>
         </article>
     );
