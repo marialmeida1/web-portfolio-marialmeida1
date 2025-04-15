@@ -1,7 +1,7 @@
 // Icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { iconsMap } from "@/src/lib/fontawesome-icons";
-import { faGithub, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 // Styles 
 import style from './page.module.css'
@@ -9,6 +9,7 @@ import style from './page.module.css'
 // Language
 import { genereteProjectsPageContent } from '@/src/utils/GenereteProjectsPageContent';
 import { generateProjectsInfosContent } from '@/src/utils/GenerateProjectsInfosContent';
+import Gallery from '@/src/components/projects/Gallery';
 
 interface ProjectPageProps {
     params: {
@@ -53,7 +54,7 @@ export default function Projects({ params }: ProjectPageProps) {
                     </ul>
                 </div>
 
-                <a href={project.github_link} target='_blanck'>{projectsPageContent.link_project}<FontAwesomeIcon icon={faGithub} /></a>
+                <a href={project.link_project} target='_blanck'>{projectsPageContent.link_project}</a>
             </section>
 
 
@@ -63,13 +64,7 @@ export default function Projects({ params }: ProjectPageProps) {
             </section>
 
             <section className={`container ${style.projects__images}`}>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
+                <Gallery id={id-1} />
             </section>
 
             <section className={style.projects__contact}>

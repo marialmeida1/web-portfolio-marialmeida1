@@ -13,7 +13,8 @@ export const generateProjectsInfosContent = (): { projects: CardProjectsContent[
             description_page: project.description_page,
             icons: project.icons,
             description_learned: project.description_learned,
-            github_link: project.github_link
+            link_project: project.link_project,
+            images: project.images
         }))
     };
 };

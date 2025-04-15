@@ -115,14 +115,14 @@
             "description_card": "Aplicativo full-stack voltado para mulheres no mercado de TI.",
             "description_page": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique deserunt exercitationem perspiciatis laudantium eum veniam consequuntur tenetur culpa doloribus excepturi, nesciunt consequatur, necessitatibus natus consectetur accusamus, nihil ducimus fugiat esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deleniti reiciendis illo voluptate magni laborum perferendis similique, porro sed est neque voluptatibus eligendi aliquam pariatur. Sit blanditiis consectetur minima iste?",
             "icons": [
-                "laravel",
-                "flutter",
-                "php",
-                "dart",
-                "git"
+                "faLaravel",
+                "faFlutter",
+                "faPhp",
+                "faDartLang",
+                "faGit"
             ],
             "description_learned": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique deserunt exercitationem perspiciatis laudantium eum veniam consequuntur tenetur culpa doloribus excepturi, nesciunt consequatur, necessitatibus natus consectetur accusamus, nihil ducimus fugiat esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deleniti reiciendis illo voluptate magni laborum perferendis similique, porro sed est neque voluptatibus eligendi aliquam pariatur. Sit blanditiis consectetur minima iste?",
-            "github_link": "/marialmeida1/app-girlsinctrl"
+            "link_project": "/marialmeida1/app-girlsinctrl"
         }
     ]
 }

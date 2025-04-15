@@ -121,7 +121,12 @@
         "faGit"
       ],
       "description_learned": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique deserunt exercitationem perspiciatis laudantium eum veniam consequuntur tenetur culpa doloribus excepturi, nesciunt consequatur, necessitatibus natus consectetur accusamus, nihil ducimus fugiat esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deleniti reiciendis illo voluptate magni laborum perferendis similique, porro sed est neque voluptatibus eligendi aliquam pariatur. Sit blanditiis consectetur minima iste?",
-      "github_link": "/marialmeida1/app-girlsinctrl"
+      "link_project": "/marialmeida1/app-girlsinctrl",
+      "images": [
+        "https://cdn-images-1.medium.com/v2/resize:fit:666/0*-6PzVRuODQoZbyBS.jpg",
+        "https://cdn-images-1.medium.com/v2/resize:fit:1024/0*JRbPOv_mJ1u7-cWB.jpeg",
+        "https://cdn-images-1.medium.com/v2/resize:fit:626/0*liWv1JQYtlZ_tpSI.jpg"
+      ]
     }
   ]
 }
