@@ -4,6 +4,7 @@ import style from "./CardPublications.module.css"
 
 // Types
 import { PublicationsInfoContent } from "@/src/types/PublicationsInfoContent";
+import { useTranslations } from "next-intl";
 
 interface PostProps {
     post: PublicationsInfoContent
@@ -11,6 +12,9 @@ interface PostProps {
 
 
 export default function CardPublications({post}: PostProps) {
+
+    const t = useTranslations();
+
     return (
         <article className={style.cardpublications}>
             <img className={style.cardpublications__img} alt={post.title} src={post.image}>
@@ -22,7 +26,7 @@ export default function CardPublications({post}: PostProps) {
                     <p>{post.description}</p>
                 </div>
 
-                <a href={post.link} target="_blanck"  >Saiba mais</a>
+                <a href={post.link} target="_blanck">{t('btn_seemore')}</a>
             </div>
         </article>
     );

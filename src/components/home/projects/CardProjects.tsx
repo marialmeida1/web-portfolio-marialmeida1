@@ -10,6 +10,7 @@ import { CardProjectsContent } from '@/src/types/CardProjectsContent'
 
 // React
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 interface CardProjectsProps {
     content: CardProjectsContent
@@ -17,6 +18,9 @@ interface CardProjectsProps {
 }
 
 export default function CardProjects({ id, content }: CardProjectsProps) {
+
+    const t = useTranslations();
+
     return (
         <Link href={`/projects/${id}`}>
             <article className={style.cardprojects}>
@@ -34,7 +38,7 @@ export default function CardProjects({ id, content }: CardProjectsProps) {
                         <p>{content.description_card}</p>
                     </div>
 
-                    <div className={style.cardprojects__btn}>Ver mais</div>
+                    <div className={style.cardprojects__btn}>{t('btn_seemore')}</div>
                 </div>
             </article>
         </Link>
