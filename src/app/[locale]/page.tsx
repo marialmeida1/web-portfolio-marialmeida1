@@ -26,7 +26,6 @@ export default function HomePage() {
     const projectsContent = generateProjectsContent();
 
     // Publications
-    const publicationsContent = generatePublicationsContent();
 
     // Contact
     const contactContent = generateContactContent();
@@ -37,7 +36,7 @@ export default function HomePage() {
             <About content={aboutContent} />
             <IconsLine />
             <Projects content={projectsContent}/>
-            <Publications content={publicationsContent} />
+            <Publications />
             <Contact content={contactContent} />
             <Networks />
         </>
