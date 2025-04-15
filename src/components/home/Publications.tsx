@@ -7,9 +7,6 @@ import CardPublications from "./publications/CardPublications";
 // Language
 import { generatePublicationsContent } from "@/src/utils/GeneratePublicationsContent";
 
-// XML
-import { parseStringPromise } from 'xml2js';
-
 
 export default function() {
 
