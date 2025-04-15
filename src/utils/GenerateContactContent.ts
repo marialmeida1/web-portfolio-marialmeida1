@@ -1,8 +1,4 @@
-import { useTranslations } from 'next-intl';
-
-export const generateContactContent = () => {
-    const t = useTranslations('home__page.contact');
-
+export const generateContactContent = (t: (key: string) => string) => {
     return {
         title: t('title'),
         description: t('description'),

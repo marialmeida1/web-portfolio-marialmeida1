@@ -1,8 +1,4 @@
-import { useTranslations } from 'next-intl';
-
-export const generateProjectsContent = () => {
-    const t = useTranslations('home__page.projects');
-
+export const generateProjectsContent = (t: (key: string) => string) => {
     return {
         title: t('title'),
         toggle: [

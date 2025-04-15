@@ -1,8 +1,4 @@
-import { useTranslations } from 'next-intl';
-
-export const generateBannerContent = () => {
-    const t = useTranslations('home__page.banner');
-
+export const generateBannerContent = (t: (key: string) => string) => {
     return {
         apresentation: t('apresentation'),
         job: t('job')
