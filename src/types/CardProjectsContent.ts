@@ -1,5 +1,6 @@
 export interface CardProjectsContent {
     banner_card: string;
+    banner_page: string;
     color_page: string;
     title: string;
     description_card: string;

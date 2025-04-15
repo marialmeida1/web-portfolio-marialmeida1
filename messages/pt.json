@@ -109,11 +109,12 @@
     "projects": [
         {
             "id": "1",
-            "banner_card": "/img",
+            "banner_card": "/img/projects/girlsinctrl/capa.png",
+            "banner_page": "/img/projects/girlsinctrl/banner.png",
             "color_page": "#222222",
             "title": "Girls in Ctrl",
             "description_card": "Aplicativo full-stack voltado para mulheres no mercado de TI.",
-            "description_page": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique deserunt exercitationem perspiciatis laudantium eum veniam consequuntur tenetur culpa doloribus excepturi, nesciunt consequatur, necessitatibus natus consectetur accusamus, nihil ducimus fugiat esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deleniti reiciendis illo voluptate magni laborum perferendis similique, porro sed est neque voluptatibus eligendi aliquam pariatur. Sit blanditiis consectetur minima iste?",
+            "description_page": "O Girls in Ctrl foi o meu projeto de conclusão do curso Técnico em Informática, com o propósito de incentivar a participação feminina no setor de tecnologia — um espaço ainda majoritariamente masculino. Desenvolvi uma aplicação mobile full-stack focada em fornecer conteúdo relevante para mulheres interessadas ou já inseridas na área. <br/><br/> O aplicativo oferece uma variedade de recursos: notícias sobre tecnologia, oportunidades de emprego, trilhas de aprendizado, divulgação de iniciativas e comunidades de apoio. Também foi implementado um sistema de notificações, garantindo que as usuárias fiquem sempre informadas sobre novas mensagens e atualizações importantes. <br/><br/> A ideia nasceu a partir de uma pesquisa de campo que buscou compreender o impacto de projetos como esse na trajetória de mulheres da área. Com base nos dados coletados, iniciei o processo de prototipação das telas e, posteriormente, a implementação técnica. Para o back-end, utilizei Laravel na construção da API, enquanto o front-end foi desenvolvido com Flutter. Além disso, integrei Firebase Notifications e o Agendador de Tarefas do Laravel para garantir uma comunicação eficaz com as usuárias.",
             "icons": [
                 "faLaravel",
                 "faFlutter",
@@ -121,8 +122,13 @@
                 "faDartLang",
                 "faGit"
             ],
-            "description_learned": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique deserunt exercitationem perspiciatis laudantium eum veniam consequuntur tenetur culpa doloribus excepturi, nesciunt consequatur, necessitatibus natus consectetur accusamus, nihil ducimus fugiat esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deleniti reiciendis illo voluptate magni laborum perferendis similique, porro sed est neque voluptatibus eligendi aliquam pariatur. Sit blanditiis consectetur minima iste?",
-            "link_project": "/marialmeida1/app-girlsinctrl"
+            "description_learned": "Esse projeto foi um divisor de águas tanto no meu desenvolvimento técnico quanto pessoal. Tive a oportunidade de explorar diferentes frentes: desde a pesquisa e levantamento de dados, passando pela prototipação de interfaces, até chegar à implementação de uma solução completa. <br/><br/> Foi também minha primeira experiência criando um projeto full-stack utilizando tecnologias distintas para o front-end e o back-end — um desafio que me levou a evoluir muito na busca por soluções eficientes e alinhadas com os objetivos do aplicativo. Com o Girls in Ctrl, fortaleço não só minhas habilidades como desenvolvedora, mas também meu compromisso com a diversidade e inclusão na tecnologia.",
+            "link_project": "https://github.com/marialmeida1/app-girlsinctrl",
+            "images": [
+                "https://cdn-images-1.medium.com/v2/resize:fit:666/0*-6PzVRuODQoZbyBS.jpg",
+                "https://cdn-images-1.medium.com/v2/resize:fit:1024/0*JRbPOv_mJ1u7-cWB.jpeg",
+                "https://cdn-images-1.medium.com/v2/resize:fit:626/0*liWv1JQYtlZ_tpSI.jpg"
+            ]
         }
     ]
 }

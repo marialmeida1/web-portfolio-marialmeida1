@@ -31,15 +31,18 @@ export default function Projects({ params }: ProjectPageProps) {
 
     return (
         <>
-            <section className={style.projects__banner}></section>
+            <section className={style.projects__banner} style={{
+                backgroundImage: `url(${project.banner_page})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+            }}></section>
 
             <section className={`container ${style.projects__title}`}>
                 <div>
                     <h1>{project.title}</h1>
-                    <div className={style.projects__title_img}></div>
                 </div>
 
-                <p>{project.description_page}</p>
+                <p dangerouslySetInnerHTML={{ __html: project.description_page }} />
             </section>
 
             <section className={`container ${style.projects__tools}`}>
@@ -60,11 +63,11 @@ export default function Projects({ params }: ProjectPageProps) {
 
             <section className={`container ${style.projects__learned}`}>
                 <h2>{projectsPageContent.title_learned}</h2>
-                <p>{project.description_learned}</p>
+                <p dangerouslySetInnerHTML={{ __html: project.description_learned }} />
             </section>
 
             <section className={`container ${style.projects__images}`}>
-                <Gallery id={id-1} />
+                <Gallery id={id - 1} />
             </section>
 
             <section className={style.projects__contact}>

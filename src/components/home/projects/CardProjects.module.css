@@ -1,14 +1,32 @@
 .cardprojects {
+    position: relative;
     min-width: 19rem;
     max-width: 19rem;
     height: 26rem;
-    background-color: var(--primary-color);
     color: #fff;
     padding: 2rem;
     border-radius: 0.75rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow: hidden;
+    background-color: var(--primary-color);
+    background-size: cover;
+    background-position: center;
+}
+
+.cardprojects::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+    border-radius: 0.75rem;
+}
+
+.cardprojects>* {
+    position: relative;
+    z-index: 1;
 }
 
 .cardprojects__icons {
@@ -40,7 +58,7 @@
 .cardprojects__btn {
     background-color: #fff;
     color: var(--primary-color);
-    padding:  0.5rem 0.75rem;
+    padding: 0.5rem 0.75rem;
     width: fit-content;
     border-radius: 4rem;
     font-size: 0.75rem;

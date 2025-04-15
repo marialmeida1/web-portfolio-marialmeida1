@@ -23,7 +23,14 @@ export default function CardProjects({ id, content }: CardProjectsProps) {
 
     return (
         <Link href={`/projects/${id}`}>
-            <article className={style.cardprojects}>
+            <article
+                className={style.cardprojects}
+                style={{
+                    backgroundImage: `url(${content.banner_card})`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                }}
+            >
                 <div className={style.cardprojects__icons}>
                     {content.icons.map((iconName, index) => {
                         const icon = iconsMap[iconName as keyof typeof iconsMap];
