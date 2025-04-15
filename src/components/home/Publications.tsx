@@ -1,20 +1,23 @@
-// Styles
+// Syles
 import style from "./Publications.module.css"
 
 // Components
 import CardPublications from "./publications/CardPublications";
 
-// Types
-import { PublicationsContent } from '@/src/types/PublicationsContent'
+// Language
+import { generatePublicationsContent } from "@/src/utils/GeneratePublicationsContent";
 
-interface PublicationsProps {
-    content: PublicationsContent
-}
+// XML
+import { parseStringPromise } from 'xml2js';
 
-export default function({content}: PublicationsProps) {
+
+export default function() {
+
+    const publicationsContent = generatePublicationsContent();
+
     return(
         <section className={`container ${style.publications}`}>
-            <h1>{content.title}</h1>
+            <h1>{publicationsContent.title}</h1>
             
             <div className={style.publications__line}>
                 <CardPublications />

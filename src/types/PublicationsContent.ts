@@ -1,3 +1,3 @@
-export type PublicationsContent = {
+export interface PublicationsContent {
     title: string;
-};
+}
