@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl';
 
-export const generatePublicationsContent = () => {
+export const useGeneratePublicationsContent = () => {
     const t = useTranslations('home__page.publications');
 
     return {

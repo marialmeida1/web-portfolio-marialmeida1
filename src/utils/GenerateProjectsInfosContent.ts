@@ -1,7 +1,7 @@
 import { useTranslations } from 'next-intl';
 import { CardProjectsContent } from '@/src/types/CardProjectsContent'; 
 
-export const generateProjectsInfosContent = (): { projects: CardProjectsContent[] } => {
+export const useGenerateProjectsInfosContent = (): { projects: CardProjectsContent[] } => {
     const t = useTranslations();
 
     return {

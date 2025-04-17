@@ -1,5 +1,4 @@
 // Styles
-import Image from "next/image";
 import style from "./CardPublications.module.css"
 
 // Types

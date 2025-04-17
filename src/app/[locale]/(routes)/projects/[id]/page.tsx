@@ -7,8 +7,8 @@ import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import style from './page.module.css'
 
 // Language
-import { genereteProjectsPageContent } from '@/src/utils/GenereteProjectsPageContent';
-import { generateProjectsInfosContent } from '@/src/utils/GenerateProjectsInfosContent';
+import { useGenereteProjectsPageContent } from '@/src/utils/GenereteProjectsPageContent';
+import { useGenerateProjectsInfosContent } from '@/src/utils/GenerateProjectsInfosContent';
 import Gallery from '@/src/components/projects/Gallery';
 
 interface ProjectPageProps {
@@ -23,10 +23,10 @@ export default function Projects({ params }: ProjectPageProps) {
     const { id } = params;
 
     // Page
-    const projectsPageContent = genereteProjectsPageContent();
+    const projectsPageContent = useGenereteProjectsPageContent();
 
     // Projects
-    const projectsInfosContent = generateProjectsInfosContent();
+    const projectsInfosContent = useGenerateProjectsInfosContent();
     const project = projectsInfosContent.projects[id - 1];
 
     return (

@@ -7,7 +7,7 @@ import { useState } from "react";
 import Modal from "./Modal";
 
 // Language
-import { generateProjectsInfosContent } from '@/src/utils/GenerateProjectsInfosContent';
+import { useGenerateProjectsInfosContent } from '@/src/utils/GenerateProjectsInfosContent';
 
 // Style
 import style from "./Gallery.module.css"
@@ -20,7 +20,7 @@ export default function Gallery({ id }: ProjectPageProps) {
     const [currentIndex, setCurrentIndex] = useState<number | null>(null);
 
     // Projects
-    const projectsInfosContent = generateProjectsInfosContent();
+    const projectsInfosContent = useGenerateProjectsInfosContent();
     const project = projectsInfosContent.projects[id];
     const images = project.images;
 

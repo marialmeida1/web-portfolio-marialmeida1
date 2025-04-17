@@ -3,7 +3,7 @@ import style from "./Networks.module.css"
 
 // Icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBehance, faGithub, faLinkedin, faMedium, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faBehance, faGithub, faLinkedin, faMedium } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 

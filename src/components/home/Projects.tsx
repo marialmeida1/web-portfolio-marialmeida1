@@ -1,7 +1,7 @@
 "use client"
 
 // Styles
-import { generateProjectsInfosContent } from "@/src/utils/GenerateProjectsInfosContent";
+import { useGenerateProjectsInfosContent } from "@/src/utils/GenerateProjectsInfosContent";
 import style from "./Projects.module.css"
 
 // Componentes
@@ -20,7 +20,7 @@ interface ProjectsProps {
 }
 
 export default function Projects({ content }: ProjectsProps) {
-    const projectsInfosContent = generateProjectsInfosContent();
+    const projectsInfosContent = useGenerateProjectsInfosContent();
     const [showDevelopment, setShowDevelopment] = useState(true);
     const [showAll, setShowAll] = useState(false);
 

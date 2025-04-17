@@ -5,14 +5,10 @@ import style from "./Publications.module.css"
 import CardPublications from "./publications/CardPublications";
 
 // Language
-import { generatePublicationsContent } from "@/src/utils/GeneratePublicationsContent";
+import { useGeneratePublicationsContent } from "@/src/utils/GeneratePublicationsContent";
 
 // Types
 import { PublicationsInfoContent } from '@/src/types/PublicationsInfoContent'
-
-interface PostProps {
-    post: PublicationsInfoContent
-}
 
 interface PublicationsProps {
     posts: PublicationsInfoContent[];
@@ -20,7 +16,7 @@ interface PublicationsProps {
 
 export default function ({ posts }: PublicationsProps) {
 
-    const publicationsContent = generatePublicationsContent();
+    const publicationsContent = useGeneratePublicationsContent();
 
     if (!posts || posts.length === 0) {
         return <p>No posts found.</p>;
