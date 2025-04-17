@@ -1,4 +1,5 @@
 export interface CardProjectsContent {
+    type: string,
     banner_card: string;
     banner_page: string;
     color_page: string;

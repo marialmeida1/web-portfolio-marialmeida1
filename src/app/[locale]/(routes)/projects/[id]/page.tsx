@@ -52,7 +52,7 @@ export default function Projects({ params }: ProjectPageProps) {
                         {project.icons.map((iconName, index) => {
                             const icon = iconsMap[iconName as keyof typeof iconsMap];
                             if (!icon) return null;
-                            return <li><FontAwesomeIcon icon={icon} key={index} /></li>;
+                            return <li key={index}><FontAwesomeIcon icon={icon} /></li>;
                         })}
                     </ul>
                 </div>

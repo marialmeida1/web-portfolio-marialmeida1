@@ -108,10 +108,9 @@
     "btn_seemore": "Ver mais",
     "projects": [
         {
-            "id": "1",
+            "type": "0",
             "banner_card": "/img/projects/girlsinctrl/capa.png",
             "banner_page": "/img/projects/girlsinctrl/banner.png",
-            "color_page": "#222222",
             "title": "Girls in Ctrl",
             "description_card": "Aplicativo full-stack voltado para mulheres no mercado de TI.",
             "description_page": "O Girls in Ctrl foi o meu projeto de conclusão do curso Técnico em Informática, com o propósito de incentivar a participação feminina no setor de tecnologia — um espaço ainda majoritariamente masculino. Desenvolvi uma aplicação mobile full-stack focada em fornecer conteúdo relevante para mulheres interessadas ou já inseridas na área. <br/><br/> O aplicativo oferece uma variedade de recursos: notícias sobre tecnologia, oportunidades de emprego, trilhas de aprendizado, divulgação de iniciativas e comunidades de apoio. Também foi implementado um sistema de notificações, garantindo que as usuárias fiquem sempre informadas sobre novas mensagens e atualizações importantes. <br/><br/> A ideia nasceu a partir de uma pesquisa de campo que buscou compreender o impacto de projetos como esse na trajetória de mulheres da área. Com base nos dados coletados, iniciei o processo de prototipação das telas e, posteriormente, a implementação técnica. Para o back-end, utilizei Laravel na construção da API, enquanto o front-end foi desenvolvido com Flutter. Além disso, integrei Firebase Notifications e o Agendador de Tarefas do Laravel para garantir uma comunicação eficaz com as usuárias.",
@@ -125,9 +124,134 @@
             "description_learned": "Esse projeto foi um divisor de águas tanto no meu desenvolvimento técnico quanto pessoal. Tive a oportunidade de explorar diferentes frentes: desde a pesquisa e levantamento de dados, passando pela prototipação de interfaces, até chegar à implementação de uma solução completa. <br/><br/> Foi também minha primeira experiência criando um projeto full-stack utilizando tecnologias distintas para o front-end e o back-end — um desafio que me levou a evoluir muito na busca por soluções eficientes e alinhadas com os objetivos do aplicativo. Com o Girls in Ctrl, fortaleço não só minhas habilidades como desenvolvedora, mas também meu compromisso com a diversidade e inclusão na tecnologia.",
             "link_project": "https://github.com/marialmeida1/app-girlsinctrl",
             "images": [
-                "https://cdn-images-1.medium.com/v2/resize:fit:666/0*-6PzVRuODQoZbyBS.jpg",
-                "https://cdn-images-1.medium.com/v2/resize:fit:1024/0*JRbPOv_mJ1u7-cWB.jpeg",
-                "https://cdn-images-1.medium.com/v2/resize:fit:626/0*liWv1JQYtlZ_tpSI.jpg"
+                "/img/projects/girlsinctrl/image1.png",
+                "/img/projects/girlsinctrl/image2.png",
+                "/img/projects/girlsinctrl/image3.png",
+                "/img/projects/girlsinctrl/image4.png"
+            ]
+        },
+        {
+            "type": "1",
+            "banner_card": "/img/projects/girlsinctrl_logo/capa.png",
+            "banner_page": "/img/projects/girlsinctrl_logo/banner.png",
+            "title": "Girls in Ctrl - Logo",
+            "description_card": "Reformulação de logo para o projeto Girls in Ctrl.",
+            "description_page": "A nova logo do Girls in Ctrl foi criada com o objetivo de renovar e modernizar a identidade visual da marca, refletindo de forma mais autêntica seus valores e propósitos. A proposta visual parte da fusão entre as letras de destaque do nome — Girls e Ctrl — trazendo uma composição leve, com curvas suaves que remetem à feminilidade de maneira sutil e elegante. <br/><br/> Como o projeto tem como missão incentivar a participação de mulheres na tecnologia, a logo precisava transmitir acolhimento, representatividade e força. As cores, previamente definidas, foram mantidas para preservar a identidade original, enquanto o redesign focou na sofisticação e no reposicionamento da marca como uma iniciativa inovadora, inclusiva e voltada ao empoderamento feminino no setor tecnológico.",
+            "icons": [
+                "faFigma"
+            ],
+            "description_learned": "Nesse projeto, pude me aprofundar no processo de reformulação de identidade visual, indo além da estética para buscar traduzir a essência e os valores da marca em um símbolo visual coerente e impactante. Trabalhei com conceitos como leveza, modernidade, acessibilidade e representatividade, o que exigiu uma escuta atenta às necessidades do público-alvo e um olhar mais sensível sobre como comunicar isso graficamente. <br/><br/> Foi uma experiência enriquecedora que reforçou minha visão sobre design como uma ferramenta estratégica e emocional, além de fortalecer minha habilidade de transformar ideias em representações visuais com propósito.",
+            "link_project": "https://www.behance.net/gallery/186776457/Logo-App-Design-Girls-in-Ctrl",
+            "images": [
+                "/img/projects/girlsinctrl_logo/image1.png",
+                "/img/projects/girlsinctrl_logo/image2.png",
+                "/img/projects/girlsinctrl_logo/image3.png",
+                "/img/projects/girlsinctrl_logo/image4.png"
+            ]
+        },
+        {
+            "type": "0",
+            "banner_card": "/img/projects/devfest/capa.png",
+            "banner_page": "/img/projects/devfest/banner.png",
+            "title": "DevFest - Hotsite GDG",
+            "description_card": "Hotsite para o evento Devfest 2024 do grupo GDG-BH",
+            "description_page": "Desenvolver o site para o DevFest foi, sem dúvidas, uma das experiências mais marcantes da minha trajetória profissional até agora. O projeto surgiu a partir de uma demanda real do evento DevFest, organizado pelo Google Developers Group Belo Horizonte (GDG-BH) — um dos maiores encontros de tecnologia da região metropolitana de Belo Horizonte, Brasil.<br/><br/> Desde o início, o projeto me proporcionou a oportunidade de trabalhar diretamente com os organizadores do GDG, conduzindo reuniões frequentes para entender suas necessidades e alinhar expectativas. A proposta do site foi construída de forma colaborativa, com base em pesquisas e validações constantes, o que resultou em protótipos bem direcionados e alinhados com os objetivos do evento. Após essa etapa, iniciei o desenvolvimento da aplicação utilizando Next.js, um framework moderno baseado em React, garantindo performance e escalabilidade para o site.",
+            "icons": [
+                "faFigma",
+                "faReact",
+                "faJs"
+            ],
+            "description_learned": "Esse projeto foi um divisor de águas para mim — não apenas do ponto de vista técnico, mas especialmente no desenvolvimento de habilidades interpessoais. Pela primeira vez, atuei como líder de um time de desenvolvedores, o que me permitiu desenvolver minha comunicação, empatia e capacidade de tomada de decisão em cenários reais. <br/><br/> Além disso, aprofundei meu olhar estratégico ao conduzir pesquisas com o “cliente real” e transformar essas necessidades em soluções funcionais. Na prática, pude evoluir tanto no processo de prototipação, com foco em UX/UI, quanto na implementação de código, consolidando ainda mais meus conhecimentos em desenvolvimento front-end.",
+            "link_project": "https://github.com/marialmeida1/site-devfest-hospedado",
+            "images": [
+                "/img/projects/devfest/image1.png",
+                "/img/projects/devfest/image2.png",
+                "/img/projects/devfest/image3.png",
+                "/img/projects/devfest/image4.png"
+            ]
+        },
+        {
+            "type": "1",
+            "banner_card": "/img/projects/livinglifefitness/capa.png",
+            "banner_page": "/img/projects/livinglifefitness/banner.png",
+            "title": "Living Life Fitness - Landing Page Design UX/UI",
+            "description_card": "Design UX/UI da landing page para a startup Living Life Fitness.",
+            "description_page": "A prototipação da landing page para a startup Living Life Tech foi uma experiência gratificante e desafiadora. O projeto teve como objetivo modernizar a presença digital da empresa, alinhando o design às cores e diretrizes visuais previamente definidas pelo cliente. Mesmo com prazos curtos, consegui entregar uma proposta visual consistente e impactante, utilizando o Figma como ferramenta principal de criação. O resultado foi uma entrega rápida e bem-sucedida, validada positivamente pelos clientes logo nas primeiras apresentações.",
+            "icons": [
+                "faFigma"
+            ],
+            "description_learned": "Essa demanda me proporcionou uma vivência importante com entregas em curto prazo, reforçando minha capacidade de trabalhar sob pressão sem abrir mão da qualidade. Além disso, pude exercitar conceitos essenciais de prototipação de interfaces, como hierarquia visual, coerência de cores e usabilidade. Foi uma oportunidade valiosa para reforçar minha agilidade, organização e sensibilidade estética em projetos reais.",
+            "link_project": "https://www.behance.net/gallery/223815397/Landing-Page-Design-UXUI",
+            "images": [
+                "/img/projects/livinglifefitness/image1.png",
+                "/img/projects/livinglifefitness/image2.png",
+                "/img/projects/livinglifefitness/image3.png",
+                "/img/projects/livinglifefitness/image4.png"
+            ]
+        },
+        {
+            "type": "0",
+            "banner_card": "/img/projects/caroneiros/capa.png",
+            "banner_page": "/img/projects/caroneiros/banner.png",
+            "title": "Caroneiros - Sistema Full-Stack",
+            "description_card": "Sistema Full-Stack para o projeto Caroneiros - Sistema de Caronas da PUC-Minas",
+            "description_page": "O projeto Caroneiros foi desenvolvido como parte do Trabalho Interdisciplinar (TI) da PUC Minas, com o objetivo de criar uma solução acessível para universitários que enfrentam dificuldades com transporte até a faculdade. Essa iniciativa foi extremamente enriquecedora para minha trajetória técnica e profissional, contribuindo significativamente para minha formação como desenvolvedora full-stack.<br/><br/> Atuei como líder da área de front-end, utilizando React com Vite para o desenvolvimento da interface. Também participei ativamente da construção do back-end, implementado em Java com o framework Spark, e da estruturação do banco de dados em PostgreSQL, garantindo a integração completa do sistema.<br/><br/> A organização do time, composto por quatro integrantes, foi baseada na metodologia ágil Scrum, com sprints e reuniões diárias (dailies) que permitiram uma colaboração eficiente, mesmo com cada integrante atuando em frentes diferentes: front-end, back-end, banco de dados e liderança geral.<br/><br/> O projeto também incorporou conceitos de cloud computing, utilizando a Azure para a hospedagem do back-end e implementando um sistema inteligente para validação de usuários. Esse sistema verificava, por exemplo, se o CPF inserido no momento do cadastro correspondia aos dados do documento enviado.<br/><br/> O sistema foi desenvolvido para conectar motoristas e passageiros universitários, promovendo o compartilhamento de caronas de forma segura e prática.<br/><br/> Como reconhecimento, o projeto foi indicado entre os melhores trabalhos do semestre, conquistando o segundo lugar na votação popular realizada pela universidade.",
+            "icons": [
+                "faFigma",
+                "faJava",
+                "faGit",
+                "faReact",
+                "faCss",
+                "faJs"
+            ],
+            "description_learned": "Esse projeto me ensinou a lidar com entregas de longo prazo, mesmo em um contexto onde não havia um líder com maior conhecimento técnico – todos estávamos no mesmo nível e aprendendo juntos. Foi um verdadeiro desafio propor soluções alinhadas com as demandas do mercado, desenvolvendo o sistema desde a fase de prototipação, passando pela criação do banco de dados, até a implementação integrada do front-end e back-end. Além disso, pude aprimorar minhas habilidades em hospedagem em nuvem e ter um primeiro contato mais aprofundado com infraestrutura de deploy.",
+            "link_project": "https://github.com/marialmeida1/system-caroneiros_ti3",
+            "link_behance:": "https://www.behance.net/gallery/223838425/Design-UXUI-System-Web",
+            "images": [
+                "/img/projects/caroneiros/image1.png",
+                "/img/projects/caroneiros/image2.png",
+                "/img/projects/caroneiros/image3.png",
+                "/img/projects/caroneiros/image4.png"
+            ]
+        },
+        {
+            "type": "1",
+            "banner_card": "/img/projects/webtech/capa.png",
+            "banner_page": "/img/projects/webtech/banner.png",
+            "title": "WebTech - Logo",
+            "description_card": "Reformulação da logo para o projeto de extensão WebTech Network",
+            "description_page": "O WebTech Network é um projeto de extensão da PUC Minas que tem como objetivo promover a troca de conhecimentos e experiências entre alunos e professores, fomentando a criação de soluções tecnológicas e inovadoras para a sociedade. Dentre os desafios propostos, tive a oportunidade de liderar o processo de redesign da identidade visual do projeto — uma tarefa tão desafiadora quanto gratificante.<br/><br/> A logo anterior, embora simbólica, não refletia mais a proposta moderna e dinâmica que o projeto buscava transmitir. Baseada em uma lâmpada com engrenagens, a marca original apresentava limitações tanto em termos de replicabilidade quanto de impacto visual.<br/><br/> A proposta de redesign manteve a essência do conceito original — a lâmpada como símbolo de criatividade e inovação — mas trouxe uma nova abordagem visual, incorporando a letra 'W' (referência à palavra Web) em sua estrutura. A cor amarela, já presente na identidade anterior, foi mantida como elemento de continuidade, reforçando o vínculo com a história do projeto, mas agora aplicada em uma composição mais moderna, versátil e memorável.",
+            "icons": [
+                "faFigma"
+            ],
+            "description_learned": "Esse projeto me proporcionou uma imersão prática no processo de reformulação de marcas, aprofundando meu olhar crítico sobre identidade visual e coerência estética. Aprendi a equilibrar inovação com respeito à essência já existente de uma marca, além de aprimorar minhas habilidades em design estratégico, construção de conceitos e aplicabilidade em diferentes formatos e mídias. Foi uma experiência valiosa que fortaleceu minha atuação como designer e desenvolvedora, com foco em soluções visuais eficazes e alinhadas aos objetivos da marca.",
+            "link_project": "https://www.behance.net/gallery/215349819/WebTech-Logo",
+            "link_behance:": "https://www.behance.net/gallery/215349819/WebTech-Logo",
+            "images": [
+                "/img/projects/webtech/image1.png",
+                "/img/projects/webtech/image2.png",
+                "/img/projects/webtech/image3.png",
+                "/img/projects/webtech/image4.png"
+            ]
+        },
+        {
+            "type": "1",
+            "banner_card": "/img/projects/primeiraajuda/capa.png",
+            "banner_page": "/img/projects/primeiraajuda/banner.png",
+            "title": "Primeira Ajuda - Design UX/UI",
+            "description_card": "Design UX/UI feito para o projeto Primeira Ajuda.",
+            "description_page": "O Primeira Ajuda é um protótipo desenvolvido com o objetivo de oferecer suporte em situações de primeiros socorros. A proposta envolve uma abordagem interativa e educativa, utilizando conceitos de gamificação para tornar o aprendizado mais acessível e engajador. O usuário é guiado a entender as etapas essenciais do atendimento emergencial.",
+            "icons": [
+                "faFigma"
+            ],
+            "description_learned": "Esse projeto me permitiu aprofundar meus conhecimentos em prototipação e explorar de forma prática como elementos de gamificação podem ser aplicados para reforçar o aprendizado. Além disso, pude exercitar a criação de experiências centradas no usuário, pensando na usabilidade e na clareza das informações em situações críticas.",
+            "link_project": "https://www.behance.net/gallery/203748275/First-Aid-Web-Design-UXUI",
+            "link_behance:": "https://www.behance.net/gallery/203748275/First-Aid-Web-Design-UXUI",
+            "images": [
+                "/img/projects/primeiraajuda/image1.png",
+                "/img/projects/primeiraajuda/image2.png",
+                "/img/projects/primeiraajuda/image3.png",
+                "/img/projects/primeiraajuda/image4.png"
             ]
         }
     ]

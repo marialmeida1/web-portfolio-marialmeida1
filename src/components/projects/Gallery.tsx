@@ -43,6 +43,7 @@ export default function Gallery({ id }: ProjectPageProps) {
 
             {currentIndex !== null && (
                 <Modal
+                    key={currentIndex}
                     src={images[currentIndex]}
                     onClose={closeModal}
                     onNext={goNext}

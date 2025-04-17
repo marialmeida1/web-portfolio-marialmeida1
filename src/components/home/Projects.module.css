@@ -22,6 +22,22 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.btn_seemore {
+    text-decoration: underline;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    color: var(--primary-color);
+}
+
+.btn_seemore:hover {
+    color: var(--secondary-color);
+    font-weight: 900;
+    cursor: pointer;
 }
 
 @media (max-width: 1175px) {
@@ -30,7 +46,9 @@
         overflow-x: auto;
         scroll-snap-type: x mandatory;
         -webkit-overflow-scrolling: touch;
-        scrollbar-width: none; 
+        scrollbar-width: none;
+        flex-wrap: nowrap; 
+        flex-direction: row;
     }
 
     .projects__line::-webkit-scrollbar {

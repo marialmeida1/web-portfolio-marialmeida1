@@ -6,6 +6,7 @@ export const generateProjectsInfosContent = (): { projects: CardProjectsContent[
 
     return {
         projects: t.raw('projects').map((project: any) => ({
+            type: project.type,
             banner_card: project.banner_card,
             banner_page: project.banner_page,
             color_page: project.color_page,

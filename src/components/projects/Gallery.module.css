@@ -1,6 +1,6 @@
 .thumbnail {
-    width: 12rem;
-    height: 14rem;
+    width: 16rem;
+    height: 24rem;
     object-fit: cover;
     cursor: pointer;
     border-radius: 0.5rem;
