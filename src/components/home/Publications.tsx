@@ -14,7 +14,7 @@ interface PublicationsProps {
     posts: PublicationsInfoContent[];
 }
 
-export default function ({ posts }: PublicationsProps) {
+export default function Publications ({ posts }: PublicationsProps) {
 
     const publicationsContent = useGeneratePublicationsContent();
 
