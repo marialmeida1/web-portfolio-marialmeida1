@@ -1,3 +1,5 @@
+'use client'
+
 // Icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { iconsMap } from "@/src/lib/fontawesome-icons";
@@ -10,16 +12,12 @@ import style from './page.module.css'
 import { useGenereteProjectsPageContent } from '@/src/utils/GenereteProjectsPageContent';
 import { useGenerateProjectsInfosContent } from '@/src/utils/GenerateProjectsInfosContent';
 import Gallery from '@/src/components/projects/Gallery';
+import { useParams } from 'next/navigation';
 
-interface ProjectPageProps {
-    params: {
-        id: string;
-    };
-}
-
-export default function Projects({ params }: ProjectPageProps) {
+export default function Projects() {
 
     // Router
+    const params = useParams();
     const id = Number(params.id);
 
     // Page
