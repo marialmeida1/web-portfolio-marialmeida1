@@ -18,7 +18,7 @@ export default async function HomePage() {
     const baseUrl =
         process.env.NODE_ENV === 'development'
             ? 'http://localhost:3000'
-            : 'https://seu-site-em-producao.com' // Substitua pelo seu domínio se necessário
+            : 'https://mariallmeidam.vercel.app/' // Substitua pelo seu domínio se necessário
 
     const res = await fetch(`${baseUrl}/api/medium`, {
         cache: 'no-store', // Garante que é SSR a cada request
