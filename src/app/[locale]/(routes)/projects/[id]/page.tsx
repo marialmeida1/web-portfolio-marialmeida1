@@ -13,14 +13,14 @@ import Gallery from '@/src/components/projects/Gallery';
 
 interface ProjectPageProps {
     params: {
-        id: number;
+        id: string;
     };
 }
 
 export default function Projects({ params }: ProjectPageProps) {
 
     // Router
-    const { id } = params;
+    const id = Number(params.id);
 
     // Page
     const projectsPageContent = useGenereteProjectsPageContent();

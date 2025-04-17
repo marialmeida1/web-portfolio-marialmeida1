@@ -5,7 +5,7 @@ export const useGenerateProjectsInfosContent = (): { projects: CardProjectsConte
     const t = useTranslations();
 
     return {
-        projects: t.raw('projects').map((project: any) => ({
+        projects: t.raw('projects').map((project: CardProjectsContent) => ({
             type: project.type,
             banner_card: project.banner_card,
             banner_page: project.banner_page,
