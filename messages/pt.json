@@ -255,6 +255,30 @@
                 "/img/projects/primeiraajuda/image3.png",
                 "/img/projects/primeiraajuda/image4.png"
             ]
+        },
+        {
+            "type": "0",
+            "banner_card": "/img/projects/portfolio/capa.png",
+            "banner_page": "/img/projects/portfolio/banner.png",
+            "title": "Portfólio - Sistema Front-End",
+            "description_card": "Sistema Front-End para o meu portfólio de desenvolvimento.",
+            "description_page": "O desenvolvimento do meu portfólio foi uma ideia que estava guardada por um tempo, mas que finalmente ganhei coragem para tirar do papel. O primeiro passo foi a criação de um design UX/UI completamente desenvolvido por mim, com o objetivo de ser original, intuitivo e, acima de tudo, claro. Durante a elaboração do design, pude aplicar os conceitos que venho estudando e experimentando, buscando proporcionar uma experiência agradável e funcional para o usuário. <br/><br/> Após a definição do design, iniciei a implementação com o Next.js, um framework de front-end altamente eficiente que facilitou aspectos como roteamento, internacionalização e páginas estáticas. Com o Next.js, consegui otimizar a performance do site, além de implementar recursos como troca de tema de cor e a troca de idioma, o que foi um desafio enriquecedor. Para tornar o portfólio ainda mais dinâmico, integrei o consumo de um feed RSS do Medium, o que permite atualizar automaticamente o conteúdo do blog com meus posts mais recentes.<br/><br/> Esse projeto, sem dúvida, tem uma importância significativa no meu crescimento como profissional. Ele não apenas reflete minhas habilidades técnicas, mas também minha evolução no design de interfaces e na construção de uma aplicação interativa e funcional. Ao concluir essa etapa, percebi o quanto esse portfólio pode ser uma vitrine do meu trabalho e um ponto de contato essencial para futuras oportunidades.",
+            "icons": [
+                "faFigma",
+                "faGit",
+                "faReact",
+                "faCss",
+                "faJs"
+            ],
+            "description_learned": "Ao longo do desenvolvimento, pude reforçar meus conhecimentos em design UX/UI, colocando em prática tudo o que aprendi até agora. Um dos principais desafios foi a implementação de uma troca de linguagem eficaz, uma funcionalidade que exigiu a compreensão e aplicação de um roteamento de página em Next.js, algo que eu ainda não havia explorado profundamente.<br/><br/> Além disso, pude solidificar ainda mais meus conhecimentos em Next.js, trabalhando com seus recursos de maneira prática e eficiente. A integração com o feed RSS e a implementação de uma troca de tema de cor me proporcionaram uma experiência valiosa no que diz respeito à personalização de aplicações e à criação de interfaces mais interativas.<br/><br/> Este projeto também me deu uma visão mais profunda de como combinar design, funcionalidade e performance de forma harmônica, sempre com o foco na experiência do usuário. A troca de idioma, por exemplo, me ensinou a importância de um roteamento bem estruturado, uma área do desenvolvimento front-end que se mostrou fundamental para o sucesso do projeto.",
+            "link_project": "https://github.com/marialmeida1/web-portfolio-marialmeida1",
+            "link_behance:": "https://www.behance.net/gallery/223838425/Design-UXUI-System-Web",
+            "images": [
+                "/img/projects/portfolio/image1.png",
+                "/img/projects/portfolio/image2.png",
+                "/img/projects/portfolio/image3.png",
+                "/img/projects/portfolio/image4.png"
+            ]
         }
     ]
 }

@@ -254,6 +254,30 @@
         "/img/projects/primeiraajuda/image3.png",
         "/img/projects/primeiraajuda/image4.png"
       ]
+    },
+    {
+      "type": "0",
+      "banner_card": "/img/projects/portfolio/capa.png",
+      "banner_page": "/img/projects/portfolio/banner.png",
+      "title": "Portfolio - Front-End System",
+      "description_card": "Front-End System for my development portfolio.",
+      "description_page": "The development of my portfolio was an idea that had been on hold for a while, but I finally gathered the courage to bring it to life. The first step was creating a UX/UI design entirely developed by me, with the goal of being original, intuitive, and, above all, clear. While creating the design, I was able to apply the concepts I have been studying and experimenting with, aiming to provide an enjoyable and functional experience for the user. <br/><br/> After defining the design, I started the implementation with Next.js, a highly efficient front-end framework that made aspects like routing, internationalization, and static pages much easier. With Next.js, I was able to optimize the site’s performance, as well as implement features like color theme switching and language switching, which was an enriching challenge. To make the portfolio even more dynamic, I integrated the consumption of an RSS feed from Medium, which allows for automatic updates of the blog content with my latest posts.<br/><br/> This project is undoubtedly of great importance to my growth as a professional. It not only reflects my technical skills but also my evolution in interface design and building an interactive and functional application. By completing this stage, I realized how this portfolio can serve as a showcase of my work and an essential point of contact for future opportunities.",
+      "icons": [
+        "faFigma",
+        "faGit",
+        "faReact",
+        "faCss",
+        "faJs"
+      ],
+      "description_learned": "Throughout the development, I was able to reinforce my UX/UI design knowledge, putting into practice everything I have learned so far. One of the main challenges was implementing an effective language switch, a feature that required understanding and applying page routing in Next.js, something I hadn’t explored deeply before.<br/><br/> Additionally, I was able to solidify my knowledge in Next.js by working with its features in a practical and efficient way. The integration with the RSS feed and the implementation of color theme switching provided me with valuable experience in customizing applications and creating more interactive interfaces.<br/><br/> This project also gave me a deeper understanding of how to combine design, functionality, and performance in a harmonious way, always focusing on the user experience. The language switch, for example, taught me the importance of structured routing, an area of front-end development that proved to be fundamental for the success of the project.",
+      "link_project": "https://github.com/marialmeida1/web-portfolio-marialmeida1",
+      "link_behance": "https://www.behance.net/gallery/223838425/Design-UXUI-System-Web",
+      "images": [
+        "/img/projects/portfolio/image1.png",
+        "/img/projects/portfolio/image2.png",
+        "/img/projects/portfolio/image3.png",
+        "/img/projects/portfolio/image4.png"
+      ]
     }
   ]
 }
