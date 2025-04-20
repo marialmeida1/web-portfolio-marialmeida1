@@ -107,6 +107,7 @@
     "footer": "Copyright © 2025 Mariana Almeida. Todos os direitos reservados.",
     "btn_seemore": "Ver mais",
     "btn_back": "Voltar",
+    "resume": "/files/cv.pdf",
     "projects": [
         {
             "type": "0",

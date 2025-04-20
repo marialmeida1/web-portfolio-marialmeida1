@@ -11,12 +11,15 @@ import Timeline from "./about/Timeline";
 
 // Types
 import { AboutContent } from '@/src/types/AboutContent'
+import { useTranslations } from "next-intl";
 
 interface AboutProps {
     content: AboutContent
 }
 
 export default function About({ content }: AboutProps) {
+    const t = useTranslations();
+
     return (
         <section className={`container ${style.about}`}>
             <h1>{content.about.title}</h1>
@@ -38,7 +41,7 @@ export default function About({ content }: AboutProps) {
                     {content.about.cta.cta}
                 </p>
 
-                <a href="/files/curriculo.pdf" download="curriculo.pdf" className={style.about__btncv}>
+                <a href={t('resume')} download="curriculo.pdf" className={style.about__btncv}>
                     Download
 
                     <FontAwesomeIcon icon={faUpRightFromSquare} />
