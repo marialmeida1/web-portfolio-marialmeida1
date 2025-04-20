@@ -17,6 +17,7 @@ import { useTranslations } from 'next-intl';
 // Router
 import { useRouter } from 'next/navigation'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import Head from 'next/head';
 
 
 export default function Projects() {
@@ -40,6 +41,10 @@ export default function Projects() {
 
     return (
         <>
+            <Head>
+                <title>{project.title}</title>
+                <meta name="description" content={project.description_card} />
+            </Head>
             <section className={style.projects__banner} style={{
                 backgroundImage: `url(${project.banner_page})`,
                 backgroundSize: 'cover',

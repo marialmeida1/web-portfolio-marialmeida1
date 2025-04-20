@@ -13,6 +13,7 @@ import Publications from '@/src/components/home/Publications'
 import Contact from '@/src/components/home/Contact'
 import Networks from '@/src/components/home/Networks'
 import { getTranslations } from 'next-intl/server'
+import Head from 'next/head'
 
 export default async function HomePage() {
     const baseUrl =
@@ -42,6 +43,10 @@ export default async function HomePage() {
 
     return (
         <>
+            <Head>
+                <title>Sobre Mim - Mariana Almeida</title>
+                <meta name="description" content="Conheça a história e os projetos de Mariana Almeida, desenvolvedora de software." />
+            </Head>
             <Banner content={bannerContent} />
             <About content={aboutContent} />
             <IconsLine />
