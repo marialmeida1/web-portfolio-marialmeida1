@@ -1,5 +1,4 @@
 'use client'
-
 // Icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { iconsMap } from "@/src/lib/fontawesome-icons";
@@ -13,6 +12,12 @@ import { useGenereteProjectsPageContent } from '@/src/utils/GenereteProjectsPage
 import { useGenerateProjectsInfosContent } from '@/src/utils/GenerateProjectsInfosContent';
 import Gallery from '@/src/components/projects/Gallery';
 import { useParams } from 'next/navigation';
+import { useTranslations } from 'next-intl';
+
+// Router
+import { useRouter } from 'next/navigation'
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
+
 
 export default function Projects() {
 
@@ -27,6 +32,12 @@ export default function Projects() {
     const projectsInfosContent = useGenerateProjectsInfosContent();
     const project = projectsInfosContent.projects[id - 1];
 
+    // Translate
+    const t = useTranslations();
+
+    // Router
+    const router = useRouter();
+
     return (
         <>
             <section className={style.projects__banner} style={{
@@ -36,6 +47,7 @@ export default function Projects() {
             }}></section>
 
             <section className={`container ${style.projects__title}`}>
+                <a className={style.projects__btnback} onClick={() => router.back()}><FontAwesomeIcon icon={faArrowLeft} />{t('btn_back')}</a>
                 <div>
                     <h1>{project.title}</h1>
                 </div>

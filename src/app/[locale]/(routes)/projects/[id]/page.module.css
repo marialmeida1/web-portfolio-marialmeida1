@@ -164,6 +164,20 @@
     margin-top: 4.5rem;
 }
 
+.projects__btnback {
+    background-color: var(--bg-color);
+    border: 1px solid var(--font-color);
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.projects__btnback svg {
+    padding-right: 0.5rem;
+}
+
 @media (max-width: 1175px) {
     .projects__images {
         gap: 1rem;

@@ -106,6 +106,7 @@
     },
     "footer": "Copyright © 2025 Mariana Almeida. Todos os direitos reservados.",
     "btn_seemore": "Ver mais",
+    "btn_back": "Voltar",
     "projects": [
         {
             "type": "0",
