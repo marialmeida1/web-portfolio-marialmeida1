@@ -1,8 +1,9 @@
 declare global {
     interface Window {
-        gtag: (...args: any[]) => void;
+      gtag: (...args: unknown[]) => void;
     }
-}
+  }
+  
 
 export const GA_TRACKING_ID = 'G-4R04J28MWS'
 
