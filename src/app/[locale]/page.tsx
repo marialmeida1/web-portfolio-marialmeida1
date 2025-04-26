@@ -14,6 +14,7 @@ import Contact from '@/src/components/home/Contact'
 import Networks from '@/src/components/home/Networks'
 import { getTranslations } from 'next-intl/server'
 import Head from 'next/head'
+import Services from '@/src/components/home/Services'
 
 export default async function HomePage() {
     const baseUrl =
@@ -51,6 +52,7 @@ export default async function HomePage() {
             <About content={aboutContent} />
             <IconsLine />
             <Projects content={projectsContent} />
+            <Services />
             <Publications posts={posts} />
             <Contact content={contactContent} />
             <Networks />
