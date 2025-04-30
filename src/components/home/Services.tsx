@@ -3,7 +3,7 @@ import { faScrewdriverWrench, faDesktop, faPaintBrush, faRefresh } from '@fortaw
 import style from './Services.module.css'
 
 // Components
-import CardServices from "./services/CardServices";
+/*import CardServices from "./services/CardServices";
 import { getTranslations } from 'next-intl/server';
 import { generateServicesContent } from '@/src/utils/GenerateServicesContent';
 
@@ -24,4 +24,4 @@ export default function  Services() {
             </div>
         </section>
     );
-}
+}*/
