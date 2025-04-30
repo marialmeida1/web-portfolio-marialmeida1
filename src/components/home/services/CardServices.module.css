@@ -3,12 +3,14 @@
     flex-direction: column;
     align-items: center;
     border-radius: 1rem;
-    min-width: 21rem;
-    max-width: 21rem;
+    min-width: 19rem;
+    max-width: 19rem;
     box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.055);
     background-color: var(--bg-color-secondary);
     padding: 2rem;
     margin-top: 4rem;
+    min-height: 50rem;
+    justify-content: space-between;
 }
 
 .cardservices svg {
@@ -23,7 +25,7 @@
 }
 
 .cardservices h2,
-.cardservices p{
+.cardservices p {
     margin: 0rem;
     padding: 0rem;
 }
@@ -38,7 +40,7 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    margin: 2rem;
+    margin: 2rem 0rem;
     width: 100%;
 }
 
@@ -62,8 +64,6 @@
 }
 
 .cardservices__ideal {
-    margin-top: 2rem !important;
-    width: 100%;
     font-size: 0.75rem;
 }
 
@@ -73,11 +73,23 @@
 
 .cardservices__seemore {
     padding: 1rem 1.5rem;
-    margin-top: 2rem;
     background-color: var(--font-color);
     color: var(--bg-color);
     border-radius: 4rem;
     width: 85%;
     text-align: center;
     font-weight: bold;
+}
+
+.cardservices__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.cardservices__price {
+    display: flex;
+    align-items: baseline;
 }

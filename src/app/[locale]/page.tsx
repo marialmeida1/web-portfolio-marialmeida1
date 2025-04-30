@@ -52,7 +52,6 @@ export default async function HomePage() {
             <About content={aboutContent} />
             <IconsLine />
             <Projects content={projectsContent} />
-            <Services />
             <Publications posts={posts} />
             <Contact content={contactContent} />
             <Networks />

@@ -25,33 +25,37 @@ export default function CardServices({ services }: CardsProps) {
 
     return (
         <article className={style.cardservices}>
-            <FontAwesomeIcon icon={icon} style={{ backgroundColor: color }} />
+            <div>
+                <FontAwesomeIcon icon={icon} style={{ backgroundColor: color }} />
 
-            <h2>{title}</h2>
+                <h2>{title}</h2>
 
-            <p>{description}</p>
+                <p>{description}</p>
 
-            <div className={style.cardservices__price}>
-                <p>{priceLabel}</p>
-                <h3 style={{ color: color }}>{price}</h3>
-                <p>{priceSuffix}</p>
+                <div className={style.cardservices__price}>
+                    <p>{priceLabel}</p>
+                    <h3 style={{ color: color }}>{price}</h3>
+                    <p>{priceSuffix}</p>
+                </div>
+
+                <ul>
+                    {features.map((feature, index) => (
+                        <li key={index}>{feature}</li>
+                    ))}
+                </ul>
+
+
+
             </div>
 
-            <ul>
-                {features.map((feature, index) => (
-                    <li key={index}>{feature}</li>
-                ))}
-            </ul>
-
-            <hr />
-
-            <p className={style.cardservices__ideal}>
-                <span>Ideal:</span> {ideal}
-            </p>
-
-            <a href={link} className={style.cardservices__seemore}>
-                Saber mais
-            </a>
+            <div className={style.cardservices__footer}>
+                <p className={style.cardservices__ideal}>
+                    <span>Ideal:</span> {ideal}
+                </p>
+                <a href={link} className={style.cardservices__seemore}>
+                    Saber mais
+                </a>
+            </div>
         </article>
     );
 }

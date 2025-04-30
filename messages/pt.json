@@ -92,6 +92,65 @@
             "cta": "Vamos transformar ideias em realidade!",
             "number_message": "Sua mensagem",
             "btn_cta": "Entrar em Contato"
+        },
+        "services": {
+            "title": "Serviços",
+            "services": {
+                "maintenanceService": {
+                    "icon": "faScrewdriverWrench",
+                    "title": "Manutenção de Sites e Landing Pages",
+                    "description": "Tranquilidade total para seu site: atualizações, segurança e suporte contínuo!",
+                    "price": "R$ 100,00",
+                    "priceLabel": "a partir",
+                    "priceSuffix": "/mês",
+                    "color": "#5C35A8",
+                    "features": [
+                        "Atualizações de conteúdo sempre que necessário",
+                        "Ajustes de design e responsividade",
+                        "Correção de bugs técnicos",
+                        "Realização de backups periódicos",
+                        "Suporte para pequenos novos recursos"
+                    ],
+                    "ideal": "Pequenas empresas, profissionais autônomos e lojas locais que querem tranquilidade e segurança digital.",
+                    "link": "#"
+                },
+                "landingPageService": {
+                    "icon": "faDesktop",
+                    "title": "Criação de Landing Pages (Código ou Design)",
+                    "description": "Transforme sua ideia em uma página de conversão incrível e otimizada!",
+                    "price": "R$ 500,00",
+                    "priceLabel": "a partir de",
+                    "priceSuffix": "(valor fixo por página)",
+                    "color": "#2A9D8F",
+                    "features": [
+                        "Criação de páginas com design atrativo e funcional",
+                        "Implementação de formulários e call-to-actions eficazes",
+                        "Design responsivo para dispositivos móveis",
+                        "Otimização para SEO e velocidade de carregamento",
+                        "Configuração de integração com ferramentas de marketing (Google Analytics, Mailchimp, etc.)"
+                    ],
+                    "ideal": "Empreendedores, lançamentos de produtos e campanhas promocionais que precisam de uma landing page de alta conversão.",
+                    "link": "#"
+                },
+                "visualIdentityService": {
+                    "icon": "faRefresh",
+                    "title": "Reestruturação de Identidade Visual",
+                    "description": "Revolucione a percepção da sua marca com uma reformulação completa!",
+                    "price": "R$ 1.200,00",
+                    "priceLabel": "a partir de",
+                    "priceSuffix": "(valor fixo por projeto)",
+                    "color": "#5C35A8",
+                    "features": [
+                        "Criação de um novo logo e elementos visuais",
+                        "Redesign de site e atualização de layout",
+                        "Desenvolvimento de padrões para redes sociais",
+                        "Implementação de novas estratégias de comunicação visual",
+                        "Consultoria sobre posicionamento e branding"
+                    ],
+                    "ideal": "Empresas que querem melhorar sua imagem no mercado ou se reposicionar para atingir um novo público.",
+                    "link": "#"
+                }
+            }
         }
     },
     "project_page": {
