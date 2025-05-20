@@ -1,6 +1,4 @@
 // Styles
-import { faScrewdriverWrench, faDesktop, faPaintBrush, faRefresh } from '@fortawesome/free-solid-svg-icons';
-import style from './Services.module.css'
 
 // Components
 /*import CardServices from "./services/CardServices";
